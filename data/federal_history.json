@@ -1,0 +1,6060 @@
+[
+    {
+        "acumulado": false,
+        "dataApuracao": "24\/05\/2025",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "023973",
+            "000002",
+            "009871",
+            "085464",
+            "046832"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "023973",
+            "000002",
+            "009871",
+            "085464",
+            "046832"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "VARGEM BONITA",
+                "nomeFatansiaUL": "LOTERICA MEGA MILHAO",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "MG"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "GARIBALDI",
+                "nomeFatansiaUL": "LOTERICA GARIBALDI",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "RS"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "TESOURO REAL",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "BILHETE NAO COMERCIALIZADO",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "JOVINO RUBIM DE TOLEDO",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 35000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 30000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 25000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 20503
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5968,
+        "numeroConcursoAnterior": 5967,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5969,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "21\/05\/2025",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "016002",
+            "079654",
+            "018057",
+            "072187",
+            "006499"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "016002",
+            "079654",
+            "018057",
+            "072187",
+            "006499"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "CRUZILIA",
+                "nomeFatansiaUL": "CASA LOTERICA J ALBINO",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "MG"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "CORNELIO PROCOPIO",
+                "nomeFatansiaUL": "CHALE PAVAO DE OURO",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "PR"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "RIO DE JANEIRO",
+                "nomeFatansiaUL": "PONTO QUENTE LOTERIA LTDA",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "RJ"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "OSASCO",
+                "nomeFatansiaUL": "SORLUCK LOTERIAS LTDA - ME",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "EXPLOSAO LOTERIAS",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 35000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 30000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 25000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 20363
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5967,
+        "numeroConcursoAnterior": 5966,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5968,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "17\/05\/2025",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "021652",
+            "011874",
+            "073320",
+            "010102",
+            "005565"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "021652",
+            "011874",
+            "073320",
+            "010102",
+            "005565"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "BELO HORIZONTE",
+                "nomeFatansiaUL": "AGATA DA SORTE LOTERIAS LTDA",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "MG"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "CAMPO GRANDE",
+                "nomeFatansiaUL": "LOTERICA MEGA SORTE",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "MS"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "TERESINA",
+                "nomeFatansiaUL": "LOTERIA FE E SORTE",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "PI"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "LAJEADO",
+                "nomeFatansiaUL": "LOTERICA DO VALE",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "RS"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "POP MANIA",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 1350000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 40000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 30000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 20000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 17339
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5966,
+        "numeroConcursoAnterior": 5965,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5967,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "14\/05\/2025",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "022331",
+            "024928",
+            "030161",
+            "024195",
+            "005858"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "022331",
+            "024928",
+            "030161",
+            "024195",
+            "005858"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "BELO HORIZONTE",
+                "nomeFatansiaUL": "REAL LUI LOTERIAS",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "MG"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO JOAO DEL REI",
+                "nomeFatansiaUL": "ESQUINAO LOTERIAS",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "MG"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "ERECHIM",
+                "nomeFatansiaUL": "CANTINHO DA SORTE",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "RS"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO BORJA",
+                "nomeFatansiaUL": "GATO PRETTO LOTERIAS",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "RS"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SUZANO",
+                "nomeFatansiaUL": "MG DE SUZANO LOTERIAS LTDA",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 35000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 30000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 25000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 20363
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5965,
+        "numeroConcursoAnterior": 5964,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5966,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "10\/05\/2025",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "084786",
+            "018267",
+            "016578",
+            "064659",
+            "024249"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "084786",
+            "018267",
+            "016578",
+            "064659",
+            "024249"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "CANOAS",
+                "nomeFatansiaUL": "LOTERICA CARAMURU",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "RS"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "PAULO DE FARIA",
+                "nomeFatansiaUL": "LOTERICA 33",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "O PIONEIRO DA LAPA LOTERIAS LTDA",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "JALUCREI LOTERIAS",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "MORUMBY LOTERIAS",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 35000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 30000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 25000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 20503
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5964,
+        "numeroConcursoAnterior": 5963,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5965,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "07\/05\/2025",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "056984",
+            "030768",
+            "091921",
+            "075494",
+            "023194"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "056984",
+            "030768",
+            "091921",
+            "075494",
+            "023194"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "BURITI DE GOIAS",
+                "nomeFatansiaUL": "LOTERICA BURITI",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "GO"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "POCOS DE CALDAS",
+                "nomeFatansiaUL": "MARELE LOTERIAS LTDA",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "MG"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "CIANORTE",
+                "nomeFatansiaUL": "LOTERICA BRASILIA",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "PR"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "BRUSQUE",
+                "nomeFatansiaUL": "ZINGARA LOTERIAS",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "SC"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "PALMAS",
+                "nomeFatansiaUL": "CASA LOTERICA BOA SORTE",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "TO"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 35000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 30000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 25000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 20363
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5963,
+        "numeroConcursoAnterior": 5962,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5964,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "03\/05\/2025",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "004071",
+            "036290",
+            "038508",
+            "086464",
+            "023431"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "004071",
+            "036290",
+            "038508",
+            "086464",
+            "023431"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "ANAPOLIS",
+                "nomeFatansiaUL": "AGENCIA LOTERICA VILA GOIS",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "GO"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "AMERICANA",
+                "nomeFatansiaUL": "BALDIN",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "NUMERO HUM",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO VICENTE",
+                "nomeFatansiaUL": "DIA DE SORTE LOTERIAS",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "TABATINGA",
+                "nomeFatansiaUL": "LOTERICA CENTRAL",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 35000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 30000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 25000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 20503
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5962,
+        "numeroConcursoAnterior": 5961,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5963,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "30\/04\/2025",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "058396",
+            "016875",
+            "050586",
+            "001073",
+            "085532"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "058396",
+            "016875",
+            "050586",
+            "001073",
+            "085532"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "CAXIAS DO SUL",
+                "nomeFatansiaUL": "BOLAO DE OURO",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "RS"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "ARARANGUA",
+                "nomeFatansiaUL": "LOTERICA PONTO DA SORTE",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "SC"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "FLORIANOPOLIS",
+                "nomeFatansiaUL": "DESTERRO LOTERIAS",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "SC"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "CAMPINAS",
+                "nomeFatansiaUL": "CASA LOTERICA VENTURA",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "LOTERICA LATINOS LTDA",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 35000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 30000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 25000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 20363
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5961,
+        "numeroConcursoAnterior": 5960,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5962,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "26\/04\/2025",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "024668",
+            "054231",
+            "034530",
+            "037442",
+            "059138"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "024668",
+            "054231",
+            "034530",
+            "037442",
+            "059138"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "JUIZ DE FORA",
+                "nomeFatansiaUL": "CAMPEAO DA RUA HALFELD LTDA",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "MG"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "CURITIBA",
+                "nomeFatansiaUL": "ESPACO DA SORTE",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "PR"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "BARIRI",
+                "nomeFatansiaUL": "AO BARIRI LOTERICO",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "LOUVEIRA",
+                "nomeFatansiaUL": "MAX PREMIUM",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "NATANAEL MORAES DA SILVA",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 1350000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 40000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 30000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 20000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 17339
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5960,
+        "numeroConcursoAnterior": 5959,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5961,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "23\/04\/2025",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "004238",
+            "036437",
+            "014757",
+            "050648",
+            "067941"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "004238",
+            "036437",
+            "014757",
+            "050648",
+            "067941"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "GUAIRACA",
+                "nomeFatansiaUL": "LOTERIA NOROESTE",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "PR"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "JANDAIA DO SUL",
+                "nomeFatansiaUL": "LOTERICA 2000",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "PR"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "AMPARO",
+                "nomeFatansiaUL": "KASSOUF LOTERIAS",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "MARGO LOTERIAS LTDA",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "SOL LUA LOTERIAS LTDA ME",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 35000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 30000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 25000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 20363
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5959,
+        "numeroConcursoAnterior": 5958,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5960,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "16\/04\/2025",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "043165",
+            "028091",
+            "081771",
+            "082148",
+            "086802"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "043165",
+            "028091",
+            "081771",
+            "082148",
+            "086802"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "CONGONHAS DO NORTE",
+                "nomeFatansiaUL": "LOTERIA GAHA NA SORTE",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "MG"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "CAXIAS DO SUL",
+                "nomeFatansiaUL": "SAGRADA LOTERIAS",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "RS"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "CHAPADA",
+                "nomeFatansiaUL": "APOSTE BEM LOTERIAS",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "RS"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "PORTO ALEGRE",
+                "nomeFatansiaUL": "LOTERICA VOLTA DO GUERINO",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "RS"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "PRESIDENTE PRUDENTE",
+                "nomeFatansiaUL": "LOTERICA CAMPEAO DA AVENIDA",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 35000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 30000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 25000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 20363
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5958,
+        "numeroConcursoAnterior": 5957,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5959,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "12\/04\/2025",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "074832",
+            "053056",
+            "014904",
+            "085642",
+            "066307"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "074832",
+            "053056",
+            "014904",
+            "085642",
+            "066307"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "BRASILIA",
+                "nomeFatansiaUL": "LOTERICA PENINSULA DA SORTE LTDA",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "DF"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "BELO HORIZONTE",
+                "nomeFatansiaUL": "EDSORTE LOTERIAS LTDA",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "MG"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "ARARAQUARA",
+                "nomeFatansiaUL": "LOTERICA 36",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "CAMPINAS",
+                "nomeFatansiaUL": "LOTERICA NOVA VIDA",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "OURINHOS",
+                "nomeFatansiaUL": "SANTO EXPEDITO LOTERIAS",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 35000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 30000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 25000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 20503
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5957,
+        "numeroConcursoAnterior": 5956,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5958,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "09\/04\/2025",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "025695",
+            "061828",
+            "001849",
+            "027308",
+            "010608"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "025695",
+            "061828",
+            "001849",
+            "027308",
+            "010608"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "BELO HORIZONTE",
+                "nomeFatansiaUL": "CHAVE DE OURO",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "MG"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SULINA",
+                "nomeFatansiaUL": "LOTERICA SULINA",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "PR"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "RIO DE JANEIRO",
+                "nomeFatansiaUL": "LOTERIA GRANDE CHANCE",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "RJ"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "GARCA",
+                "nomeFatansiaUL": "BIG TREVO",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "LOTERICA SONHO",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 35000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 30000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 25000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 20363
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5956,
+        "numeroConcursoAnterior": 5955,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5957,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "05\/04\/2025",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "060469",
+            "011298",
+            "010581",
+            "087791",
+            "027698"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "060469",
+            "011298",
+            "010581",
+            "087791",
+            "027698"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "SALVADOR",
+                "nomeFatansiaUL": "LM LOTERIAS LTDA",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "BA"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "BELO HORIZONTE",
+                "nomeFatansiaUL": "CAPIVARI LOTERIA ESPORTIVA",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "MG"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO VENDELINO",
+                "nomeFatansiaUL": "LOTERICA SAO VENDELINO LTDA",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "RS"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "ITAPETININGA",
+                "nomeFatansiaUL": "ESTRELA DA SORTE",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "ITAPEVA",
+                "nomeFatansiaUL": "LOTERICA ZEBRA DE OURO",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 35000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 30000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 25000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 20503
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5955,
+        "numeroConcursoAnterior": 5954,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5956,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "02\/04\/2025",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "084974",
+            "033955",
+            "089343",
+            "072197",
+            "005635"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "084974",
+            "033955",
+            "089343",
+            "072197",
+            "005635"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "XAPURI",
+                "nomeFatansiaUL": "LOTERICA GLOBO DA SORTE",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "AC"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "LEOPOLDO DE BULHOES",
+                "nomeFatansiaUL": "LOTERIA SORTE GRANDE",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "GO"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "TELEMACO BORBA",
+                "nomeFatansiaUL": "LOTERICA GRALHA AZUL",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "PR"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SANTOS",
+                "nomeFatansiaUL": "LOTERICA PONTA DA PRAIA",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SUMARE",
+                "nomeFatansiaUL": "SORTE MAGICA LOTERIAS",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 35000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 30000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 25000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 20363
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5954,
+        "numeroConcursoAnterior": 5953,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5955,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "29\/03\/2025",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "082491",
+            "025420",
+            "019411",
+            "045178",
+            "036016"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "082491",
+            "025420",
+            "019411",
+            "045178",
+            "036016"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "CRATEUS",
+                "nomeFatansiaUL": "QUINA DE OURO",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "CE"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "RIO DE JANEIRO",
+                "nomeFatansiaUL": "PRACA SAENZ PENA LOTERIAS LTDA",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "RJ"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "RIO DE JANEIRO",
+                "nomeFatansiaUL": "LOTERIA GRANDE CHANCE",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "RJ"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "PORTO FELIZ",
+                "nomeFatansiaUL": "LOTERICA BANDEIRANTES PORTO FELIZ LTDA",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO JOSE DOS CAMPOS",
+                "nomeFatansiaUL": "LOTERICA AQUARIUS",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 35000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 30000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 25000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 20503
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5953,
+        "numeroConcursoAnterior": 5952,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5954,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "26\/03\/2025",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "049636",
+            "021768",
+            "001556",
+            "049601",
+            "005688"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "049636",
+            "021768",
+            "001556",
+            "049601",
+            "005688"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "PESQUEIRA",
+                "nomeFatansiaUL": "NOSSA LOTERICA",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "PE"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "RIO DE JANEIRO",
+                "nomeFatansiaUL": "QUINA LOTERICA LTDA",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "RJ"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "CANOAS",
+                "nomeFatansiaUL": "LOTERICA LORO DA SORTE - I",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "RS"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "UNIVERSO DA SORTE",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SERRANA",
+                "nomeFatansiaUL": "ADALU LOTS LTDA",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 35000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 30000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 25000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 20363
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5952,
+        "numeroConcursoAnterior": 5951,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5953,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "22\/03\/2025",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "075802",
+            "036657",
+            "039992",
+            "044698",
+            "071704"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "075802",
+            "036657",
+            "039992",
+            "044698",
+            "071704"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "LAURO DE FREITAS",
+                "nomeFatansiaUL": "MINA DE OURO LOTERIA",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "BA"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "DOM PEDRITO",
+                "nomeFatansiaUL": "LOTERICA DA BARAO LTDA",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "RS"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "PRAIA GRANDE",
+                "nomeFatansiaUL": "LOTERICA PORTA DA FORTUNA",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO BERNARDO DO CAMPO",
+                "nomeFatansiaUL": "ELDORADO LOTERIAS",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "X  DA  SORTE  LOTERIAS",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 1350000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 40000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 30000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 20000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 17339
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5951,
+        "numeroConcursoAnterior": 5950,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5952,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "19\/03\/2025",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "054838",
+            "026164",
+            "000038",
+            "077578",
+            "034218"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "054838",
+            "026164",
+            "000038",
+            "077578",
+            "034218"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "BELO HORIZONTE",
+                "nomeFatansiaUL": "ZAP DA SORTE",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "MG"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "PINHAIS",
+                "nomeFatansiaUL": "FLORIDA LOTERIAS",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "PR"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "VOLTA REDONDA",
+                "nomeFatansiaUL": "LOTERIA VOLTA REDONDA LTDA",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "RJ"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO JOAQUIM",
+                "nomeFatansiaUL": "A ROLETA LOTERIAS",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "SC"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "BOLA SETE",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 35000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 30000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 25000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 20363
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5950,
+        "numeroConcursoAnterior": 5949,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5951,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "15\/03\/2025",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "044336",
+            "006821",
+            "002505",
+            "083264",
+            "084525"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "044336",
+            "006821",
+            "002505",
+            "083264",
+            "084525"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "SANTA TEREZINHA",
+                "nomeFatansiaUL": "LOTERICA AGUIA LTDA",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "MT"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "ANDRADINA",
+                "nomeFatansiaUL": "PACO DA SORTE LOTERIAS",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "CAMPINAS",
+                "nomeFatansiaUL": "CACULA",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "ITAI",
+                "nomeFatansiaUL": "LOTERICA TREVO ITAI",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "LOTCA NOVO RUMO",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 35000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 30000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 25000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 20503
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5949,
+        "numeroConcursoAnterior": 5948,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5950,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "12\/03\/2025",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "086809",
+            "019281",
+            "085840",
+            "086707",
+            "073739"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "086809",
+            "019281",
+            "085840",
+            "086707",
+            "073739"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "LOUVEIRA",
+                "nomeFatansiaUL": "LOTERIA CENTRAL LOUVEIRENSE LTDA",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "MAIRINQUE",
+                "nomeFatansiaUL": "VIVA SORTE LOTERIAS",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "LOTERIAS A. FEDERAL",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "SORRITO LOTERIAS",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO VICENTE",
+                "nomeFatansiaUL": "CASA LOTERICA SAO VICENTE",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 35000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 30000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 25000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 20363
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5948,
+        "numeroConcursoAnterior": 5947,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5949,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "08\/03\/2025",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "077063",
+            "008026",
+            "017859",
+            "084765",
+            "067437"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "077063",
+            "008026",
+            "017859",
+            "084765",
+            "067437"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "RIO DE JANEIRO",
+                "nomeFatansiaUL": "EXCELENTE LOTERIAS",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "RJ"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "CAXIAS DO SUL",
+                "nomeFatansiaUL": "PIRIQUITO",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "RS"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "MAUA",
+                "nomeFatansiaUL": "LOTCA DO PARQUE SV LTDA",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "RIO DAS PEDRAS",
+                "nomeFatansiaUL": "LOTERICA RIO PEDRENSE",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SANTO ANDRE",
+                "nomeFatansiaUL": "TREVO DO ORATORIO",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 35000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 30000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 25000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 20503
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5947,
+        "numeroConcursoAnterior": 5946,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5948,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "01\/03\/2025",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "078324",
+            "042428",
+            "001791",
+            "048118",
+            "071825"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "078324",
+            "042428",
+            "001791",
+            "048118",
+            "071825"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "CORUMBA",
+                "nomeFatansiaUL": "A MILIONARIA",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "MS"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "LONDRINA",
+                "nomeFatansiaUL": "LOTERICA HD LTDA",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "PR"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "RIO DE JANEIRO",
+                "nomeFatansiaUL": "PRI PRI LOTERIA",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "RJ"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "MATAO",
+                "nomeFatansiaUL": "LOTERICA DO BOSQUE",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "A FORTUNA LOTS",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 35000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 30000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 25000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 20503
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5946,
+        "numeroConcursoAnterior": 5945,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5947,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "26\/02\/2025",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "060946",
+            "005428",
+            "092121",
+            "027855",
+            "041016"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "060946",
+            "005428",
+            "092121",
+            "027855",
+            "041016"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "APUCARANA",
+                "nomeFatansiaUL": "LOTERICA LAS VEGAS",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "PR"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO GONCALO",
+                "nomeFatansiaUL": "COELHAO DA SORTE LOTERIA LTDA",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "RJ"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO DOMINGOS DO SUL",
+                "nomeFatansiaUL": "LOTERICA SAO DOMINGOS",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "RS"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "BILHETE NAO COMERCIALIZADO",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "BILHETE NAO COMERCIALIZADO",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 27000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 24000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 19000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 18329
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5945,
+        "numeroConcursoAnterior": 5944,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5946,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "22\/02\/2025",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "074468",
+            "069903",
+            "053635",
+            "063088",
+            "022525"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "074468",
+            "069903",
+            "053635",
+            "063088",
+            "022525"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "PATROCINIO",
+                "nomeFatansiaUL": "BAZAR DA FORTUNA",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "MG"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "LONDRINA",
+                "nomeFatansiaUL": "LOTEBOL LOTERIAS LTDA",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "PR"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "NOVA PRATA",
+                "nomeFatansiaUL": "LOTERICA DA SORTE",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "RS"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SANTO ANDRE",
+                "nomeFatansiaUL": "VILA BASTOS LOTERIAS",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SOROCABA",
+                "nomeFatansiaUL": "J.H.S. LOTERIAS LTDA",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 1350000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 15500
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 14000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 13000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 12227
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5944,
+        "numeroConcursoAnterior": 5943,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5945,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "19\/02\/2025",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "084978",
+            "061421",
+            "073038",
+            "080508",
+            "042959"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "084978",
+            "061421",
+            "073038",
+            "080508",
+            "042959"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "BRASILIA",
+                "nomeFatansiaUL": "LOTERIAS AEROPORTO",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "DF"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "CATANDUVA",
+                "nomeFatansiaUL": "LOTERICA SAO DOMINGOS",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO BERNARDO DO CAMPO",
+                "nomeFatansiaUL": "NOVA LOTERICA LTDA",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "BILHETE NAO COMERCIALIZADO",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "BILHETE NAO COMERCIALIZADO",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 27000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 24000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 19000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 18329
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5943,
+        "numeroConcursoAnterior": 5942,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5944,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "15\/02\/2025",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "031855",
+            "040675",
+            "069464",
+            "082746",
+            "058172"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "031855",
+            "040675",
+            "069464",
+            "082746",
+            "058172"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "MURIAE",
+                "nomeFatansiaUL": "ARMACAO DA SORTE",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "MG"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "CAMPINAS",
+                "nomeFatansiaUL": "PORTAL DO CAMBUI",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SANTOS",
+                "nomeFatansiaUL": "LOTERICA AFONSO PENA",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "SORTE SUA",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "PAULO CESAR LICIO",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 27000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 24000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 19000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 18329
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5942,
+        "numeroConcursoAnterior": 5941,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5943,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "12\/02\/2025",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "085656",
+            "093866",
+            "028853",
+            "065970",
+            "022608"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "085656",
+            "093866",
+            "028853",
+            "065970",
+            "022608"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "GOVERNADOR VALADARES",
+                "nomeFatansiaUL": "TIO PATINHAS LOTERIAS",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "MG"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "FLORIANOPOLIS",
+                "nomeFatansiaUL": "A FORTUNA",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "SC"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "JUNDIAI",
+                "nomeFatansiaUL": "MAMORERAS LOTERIAS LTDA ME",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "OSASCO",
+                "nomeFatansiaUL": "LOPES LOTERIAS",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "TAUBATE",
+                "nomeFatansiaUL": "LOTERICA NOVA",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 27000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 24000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 19000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 18329
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5941,
+        "numeroConcursoAnterior": 5940,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5942,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "08\/02\/2025",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "024208",
+            "096673",
+            "033492",
+            "080951",
+            "022636"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "024208",
+            "096673",
+            "033492",
+            "080951",
+            "022636"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "CALDAS NOVAS",
+                "nomeFatansiaUL": "THERMAS DA SORTE",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "GO"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "OLINDA",
+                "nomeFatansiaUL": "LOTERIA JARDIM ATLANTICO",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "PE"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "CURITIBA",
+                "nomeFatansiaUL": "LOTERIAS ANCHIETA",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "PR"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO LEOPOLDO",
+                "nomeFatansiaUL": "PONTO ZEBRAO",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "RS"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "ITAPETININGA",
+                "nomeFatansiaUL": "LOTERICA NOVA SORTE",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 27000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 24000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 19000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 18329
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5940,
+        "numeroConcursoAnterior": 5939,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5941,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "05\/02\/2025",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "045466",
+            "096665",
+            "031879",
+            "068639",
+            "030952"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "045466",
+            "096665",
+            "031879",
+            "068639",
+            "030952"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "CASCAVEL",
+                "nomeFatansiaUL": "RUTH MACHADO",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "PR"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "ARACAJU",
+                "nomeFatansiaUL": "LOTERIA MARACAJU",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "SE"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "AMPARO",
+                "nomeFatansiaUL": "LOTERICA ANTONELLI",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "PEPITA LOTERIAS",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "CASA LOTERICA DA MOOCA LTDA ME",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 27000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 24000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 19000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 18329
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5939,
+        "numeroConcursoAnterior": 5938,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5940,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "01\/02\/2025",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "067579",
+            "010766",
+            "013423",
+            "089580",
+            "013753"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "067579",
+            "010766",
+            "013423",
+            "089580",
+            "013753"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "BELO HORIZONTE",
+                "nomeFatansiaUL": "PE QUENTE LOTERIAS",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "MG"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "RIO DE JANEIRO",
+                "nomeFatansiaUL": "TREVO LOTERICO",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "RJ"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "JOINVILLE",
+                "nomeFatansiaUL": "SILVIA LOTERIAS",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "SC"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "DIADEMA",
+                "nomeFatansiaUL": "LEOTERIKA",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "SERTANEJA LOTERICA LTDA",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 27000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 24000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 19000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 18329
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5938,
+        "numeroConcursoAnterior": 5937,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5939,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "29\/01\/2025",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "067063",
+            "063571",
+            "057379",
+            "025506",
+            "092032"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "067063",
+            "063571",
+            "057379",
+            "025506",
+            "092032"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "BELEM",
+                "nomeFatansiaUL": "CENTRO LOTERICO MINA DE OURO",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "PA"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SOBRADINHO",
+                "nomeFatansiaUL": "LOTERIAS SOBRADINHO LTDA",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "RS"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "CAMPINAS",
+                "nomeFatansiaUL": "CAMPEAO DA BARAO COMERCIO LOTERIAS LTDA",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "POA",
+                "nomeFatansiaUL": "VAPT -  VUPT LOTERIAS",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "BILHETE NAO COMERCIALIZADO",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 27000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 24000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 19000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 18329
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5937,
+        "numeroConcursoAnterior": 5936,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5938,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "25\/01\/2025",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "091356",
+            "020006",
+            "011041",
+            "024264",
+            "002142"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "091356",
+            "020006",
+            "011041",
+            "024264",
+            "002142"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "CAPAO DA CANOA",
+                "nomeFatansiaUL": "SELECTA AG.LOTERICA",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "RS"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "GUARULHOS",
+                "nomeFatansiaUL": "JARDIM SAO JOAO",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "LOTERICA PINHEIROS DA SORTE",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SOCORRO",
+                "nomeFatansiaUL": "ARLEMCAR CASA LOTERICA",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SUZANO",
+                "nomeFatansiaUL": "LEMAR LOTERIAS",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 27000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 24000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 19000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 18329
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5936,
+        "numeroConcursoAnterior": 5935,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5937,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "22\/01\/2025",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "078642",
+            "010232",
+            "026612",
+            "018122",
+            "045988"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "078642",
+            "010232",
+            "026612",
+            "018122",
+            "045988"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "BELO HORIZONTE",
+                "nomeFatansiaUL": "DUMONT LOTERIAS",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "MG"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "TOLEDO",
+                "nomeFatansiaUL": "LOTERICA PONTO DA SORTE",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "PR"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "VALENCA",
+                "nomeFatansiaUL": "KINKAS LOTERIA",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "RJ"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "JUNDIAI",
+                "nomeFatansiaUL": "JUNDIAI DA SORTE LOTERIAS - ELOY CHAVES",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "BICO DA SORTE LOTERIAS LTDA",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 27000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 24000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 19000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 18329
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5935,
+        "numeroConcursoAnterior": 5934,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5936,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "18\/01\/2025",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "025472",
+            "005939",
+            "036023",
+            "051350",
+            "026120"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "025472",
+            "005939",
+            "036023",
+            "051350",
+            "026120"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "BELO HORIZONTE",
+                "nomeFatansiaUL": "PONTO DA SORTE",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "MG"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "BARRA BONITA",
+                "nomeFatansiaUL": "LOTERICA AGUIA DE OURO",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "COTIA",
+                "nomeFatansiaUL": "LOTERICA BACARAT LTDA",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "SERTANEJA LOTERICA LTDA",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "PINHO LOTERIAS",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 1350000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 15500
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 14000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 13000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 12227
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5934,
+        "numeroConcursoAnterior": 5933,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5935,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "15\/01\/2025",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "001684",
+            "050382",
+            "085282",
+            "003416",
+            "023738"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "001684",
+            "050382",
+            "085282",
+            "003416",
+            "023738"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "SAO JOSE DOS PINHAIS",
+                "nomeFatansiaUL": "LOTERIAS COLONIA",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "PR"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SANTOS",
+                "nomeFatansiaUL": "GONZASORTE",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "O SIGNO LOTERICO",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "BILHETE NAO COMERCIALIZADO",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "PINHO LOTERIAS",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 27000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 24000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 19000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 18329
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5933,
+        "numeroConcursoAnterior": 5932,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5934,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "11\/01\/2025",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "040177",
+            "055610",
+            "044637",
+            "058386",
+            "047572"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "040177",
+            "055610",
+            "044637",
+            "058386",
+            "047572"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "BELEM",
+                "nomeFatansiaUL": "LOTERIA DA PORTUGAL",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "PA"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "FLORIANOPOLIS",
+                "nomeFatansiaUL": "LOTERICA BEIRA MAR",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "SC"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "ARACAJU",
+                "nomeFatansiaUL": "PORTA DA FORTUNA",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "SE"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "CAIEIRAS",
+                "nomeFatansiaUL": "LOTERICA MEGA TREVO AVENIDA LTDA",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "GUARULHOS",
+                "nomeFatansiaUL": "PALPITERICA LOTERIAS",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 27000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 24000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 19000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 18329
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5932,
+        "numeroConcursoAnterior": 5931,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5933,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "08\/01\/2025",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "003028",
+            "089905",
+            "012498",
+            "051133",
+            "000985"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "003028",
+            "089905",
+            "012498",
+            "051133",
+            "000985"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "CAMPO MOURAO",
+                "nomeFatansiaUL": "CAMPO LOTERICO",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "PR"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "TOLEDO",
+                "nomeFatansiaUL": "LOTERICA PARIGOT",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "PR"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "JACAREI",
+                "nomeFatansiaUL": "LOTERICA JACAREI",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "BILHETE NAO COMERCIALIZADO",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "REAL X LOTERIAS",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 27000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 24000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 19000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 18329
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5931,
+        "numeroConcursoAnterior": 5930,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5932,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "04\/01\/2025",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "055675",
+            "000280",
+            "096813",
+            "078142",
+            "065181"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "055675",
+            "000280",
+            "096813",
+            "078142",
+            "065181"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "CAXIAS DO SUL",
+                "nomeFatansiaUL": "CAMATTI LOTERIAS",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "RS"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "TUBARAO",
+                "nomeFatansiaUL": "LOTERICA MILIONARIA",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "SC"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "APARECIDA",
+                "nomeFatansiaUL": "LOTERICA PRINCESA DO VALE",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO CARLOS",
+                "nomeFatansiaUL": "LOTERICA LUCHESI",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "PAULO CESAR LICIO",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 27000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 24000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 19000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 18329
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5930,
+        "numeroConcursoAnterior": 5929,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5931,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "28\/12\/2024",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "031976",
+            "014292",
+            "030948",
+            "096672",
+            "068951"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "031976",
+            "014292",
+            "030948",
+            "096672",
+            "068951"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "CIDADE OCIDENTAL",
+                "nomeFatansiaUL": "LOTERIAS MORADA DA SORTE",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "GO"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SANTA BARBARA",
+                "nomeFatansiaUL": "A FAVORITA",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "MG"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "JABOATAO DOS GUARARAPES",
+                "nomeFatansiaUL": "SORTE SUA",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "PE"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "CAMPINAS",
+                "nomeFatansiaUL": "CACULA",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "X  DA  SORTE  LOTERIAS",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 27000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 24000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 19000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 18329
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5929,
+        "numeroConcursoAnterior": 5928,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5930,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "21\/12\/2024",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "081282",
+            "087756",
+            "035860",
+            "056855",
+            "073468"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "081282",
+            "087756",
+            "035860",
+            "056855",
+            "073468"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "BRASILIA",
+                "nomeFatansiaUL": "TERRACO LOTERIAS LTDA ME",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "DF"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "BRASILIA",
+                "nomeFatansiaUL": "NENENS CHOPP",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "DF"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "NOVA FRIBURGO",
+                "nomeFatansiaUL": "MEGASORTE LOTERIAS",
+                "posicao": 3,
+                "serie": "B",
+                "uf": "RJ"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "FLORIANOPOLIS",
+                "nomeFatansiaUL": "CASSINO DA SORTE",
+                "posicao": 5,
+                "serie": "B",
+                "uf": "SC"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "MOGI DAS CRUZES",
+                "nomeFatansiaUL": "A SORTE DE BRAS CUBAS MOGI LOTERIAS LTDA",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "PIRACICABA",
+                "nomeFatansiaUL": "LOTERICA BOLAO DA SORTE",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "PIRACICABA",
+                "nomeFatansiaUL": "LOTERICA BOLAO DA SORTE",
+                "posicao": 2,
+                "serie": "B",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "BILHETE NAO COMERCIALIZADO",
+                "posicao": 1,
+                "serie": "B",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "3 ESTRELAS",
+                "posicao": 4,
+                "serie": "B",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "BILHETE NAO COMERCIALIZADO",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 1350000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 15500
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 14000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 13000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 12227
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5928,
+        "numeroConcursoAnterior": 5927,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5929,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "14\/12\/2024",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "050607",
+            "079964",
+            "079805",
+            "081340",
+            "085601"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "050607",
+            "079964",
+            "079805",
+            "081340",
+            "085601"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "CACHOEIRA DE MINAS",
+                "nomeFatansiaUL": "LOTERICA CACHOEIRA",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "MG"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "LOTERICA FAIXA AZUL LTDA",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "MK LOTERIAS",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "BILHETE NAO COMERCIALIZADO",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "BILHETE NAO COMERCIALIZADO",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 27000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 24000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 19000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 18329
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5927,
+        "numeroConcursoAnterior": 5926,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5928,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "11\/12\/2024",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "029004",
+            "039509",
+            "071391",
+            "018548",
+            "050619"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "029004",
+            "039509",
+            "071391",
+            "018548",
+            "050619"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "SAO JORGE DO IVAI",
+                "nomeFatansiaUL": "IVAI LOTERIAS",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "PR"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "LAGUNA",
+                "nomeFatansiaUL": "LOTERICA ANITA GARIBALDI",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "SC"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "MOGI MIRIM",
+                "nomeFatansiaUL": "LOTERICA MEGASORTE",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "ADEUS PATRAO",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "BILHETE NAO COMERCIALIZADO",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 27000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 24000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 19000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 18329
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5926,
+        "numeroConcursoAnterior": 5925,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5927,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "07\/12\/2024",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "028267",
+            "048769",
+            "022812",
+            "083392",
+            "078256"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "028267",
+            "048769",
+            "022812",
+            "083392",
+            "078256"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "FRECHEIRINHA",
+                "nomeFatansiaUL": "LOTERICA GT",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "CE"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "PRESIDENTE VARGAS",
+                "nomeFatansiaUL": "LOTERICA BOA ESPERANCA",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "MA"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "IBIRITE",
+                "nomeFatansiaUL": "JORGE MELQUIADES PIMENTA",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "MG"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "BAURU",
+                "nomeFatansiaUL": "MEGABAURU LOTERICA LTDA ME",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "VIRADOURO",
+                "nomeFatansiaUL": "LOTERICA VIRADOURO DA SORTE",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 27000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 24000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 19000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 18329
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5925,
+        "numeroConcursoAnterior": 5924,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5926,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "04\/12\/2024",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "095885",
+            "080032",
+            "059941",
+            "064749",
+            "022255"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "095885",
+            "080032",
+            "059941",
+            "064749",
+            "022255"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "PORTO ALEGRE",
+                "nomeFatansiaUL": "TABACARIA 33",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "RS"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "JAU",
+                "nomeFatansiaUL": "ILHA DO TESOURO",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "OURINHOS",
+                "nomeFatansiaUL": "A FABULOSA LOTERIAS",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "BILHETE NAO COMERCIALIZADO",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "LOTERICA MAO SANTA",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 27000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 24000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 19000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 18329
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5924,
+        "numeroConcursoAnterior": 5923,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5925,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "30\/11\/2024",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "058963",
+            "085482",
+            "003237",
+            "051279",
+            "045278"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "058963",
+            "085482",
+            "003237",
+            "051279",
+            "045278"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "CURITIBA",
+                "nomeFatansiaUL": "MORUMBY LOTERIAS",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "PR"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "MARINGA",
+                "nomeFatansiaUL": "LOTERICA NORTE DO PARANA",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "PR"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "PETROPOLIS",
+                "nomeFatansiaUL": "IMPERADOR LOTERIAS",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "RJ"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO CAETANO DO SUL",
+                "nomeFatansiaUL": "BARCELONA LOTS ESP",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "ALVORADA LOTERIAS",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 27000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 24000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 19000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 18329
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5923,
+        "numeroConcursoAnterior": 5922,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5924,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "27\/11\/2024",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "012094",
+            "023813",
+            "048280",
+            "094886",
+            "029159"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "012094",
+            "023813",
+            "048280",
+            "094886",
+            "029159"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "ALTO CAPARAO",
+                "nomeFatansiaUL": "LOTERIA OURO VERDE",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "MG"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "ADAMANTINA",
+                "nomeFatansiaUL": "AGENCIA LOTERICA",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "ESQUINA DA BOA SORTE",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "LOTERICA MEGA SORTE LTDA",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SUMARE",
+                "nomeFatansiaUL": "RICO LOTERICO",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 27000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 24000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 19000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 18329
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5922,
+        "numeroConcursoAnterior": 5921,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5923,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "23\/11\/2024",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "013540",
+            "029665",
+            "077739",
+            "089465",
+            "041692"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "013540",
+            "029665",
+            "077739",
+            "089465",
+            "041692"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "JANDAIA DO SUL",
+                "nomeFatansiaUL": "LOTERICA 2000",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "PR"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO JOSE DOS CAMPOS",
+                "nomeFatansiaUL": "MEGA SORTE",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "BILHETE NAO COMERCIALIZADO",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "SAO LUCAS",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "BILHETE NAO COMERCIALIZADO",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 1350000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 15500
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 14000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 13000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 12227
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5921,
+        "numeroConcursoAnterior": 5920,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5922,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "21\/11\/2024",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "034503",
+            "085325",
+            "094559",
+            "004296",
+            "091984"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "034503",
+            "085325",
+            "094559",
+            "004296",
+            "091984"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "SAO JORGE DO IVAI",
+                "nomeFatansiaUL": "IVAI LOTERIAS",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "PR"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "ITAPOLIS",
+                "nomeFatansiaUL": "LOTERICA ITAPOLIS",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "SON LUK LOTS LTDA",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "BILHETE NAO COMERCIALIZADO",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "TACIBA",
+                "nomeFatansiaUL": "LOTERICA TACIBENSE",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 27000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 24000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 19000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 18329
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5920,
+        "numeroConcursoAnterior": 5919,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5921,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "16\/11\/2024",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "026609",
+            "092517",
+            "009012",
+            "050795",
+            "029199"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "026609",
+            "092517",
+            "009012",
+            "050795",
+            "029199"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "MACAE",
+                "nomeFatansiaUL": "LOTO LIDER",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "RJ"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "IPERO",
+                "nomeFatansiaUL": "LOTERICA IPERO",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "PAULINIA",
+                "nomeFatansiaUL": "CENTRO LOTERICO PAULINIA",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "RIBEIRAO PRETO",
+                "nomeFatansiaUL": "LOTERICA MORUMBY LTDA - ME",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO CARLOS",
+                "nomeFatansiaUL": "LOTERICA SANTA FELICIA",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 27000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 24000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 19000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 18329
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5919,
+        "numeroConcursoAnterior": 5918,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5920,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "13\/11\/2024",
+        "dataProximoConcurso": "",
+        "dezenasSorteadasOrdemSorteio": [
+            "021274",
+            "012894",
+            "038169",
+            "074266",
+            "048192"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "021274",
+            "012894",
+            "038169",
+            "074266",
+            "048192"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 0,
+                "municipio": "SENADOR FIRMINO",
+                "nomeFatansiaUL": "ESCADA DA SORTE",
+                "posicao": 4,
+                "serie": "A",
+                "uf": "MG"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "RIO DE JANEIRO",
+                "nomeFatansiaUL": "BOUT LOT BOUTIQUE LO",
+                "posicao": 1,
+                "serie": "A",
+                "uf": "RJ"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "MTJ LOTERIAS LTDA",
+                "posicao": 2,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "LOTERICA ZONA NORTE LTDA",
+                "posicao": 3,
+                "serie": "A",
+                "uf": "SP"
+            },
+            {
+                "ganhadores": 0,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "CATUMBI",
+                "posicao": 5,
+                "serie": "A",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "1 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 500000
+            },
+            {
+                "descricaoFaixa": "2 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 27000
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 24000
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 19000
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 18329
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "ESPA\u00c7O DA SORTE",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 5918,
+        "numeroConcursoAnterior": 5917,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 5919,
+        "numeroJogo": 10,
+        "observacao": null,
+        "premiacaoContingencia": null,
+        "tipoJogo": "LOTERIA_FEDERAL",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 0,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 0,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 0
+    }
+]

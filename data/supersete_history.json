@@ -1,0 +1,4151 @@
+[
+    {
+        "acumulado": true,
+        "dataApuracao": "23\/05\/2025",
+        "dataProximoConcurso": "26\/05\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "3",
+            "4",
+            "9",
+            "2",
+            "0",
+            "6",
+            "6"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "3",
+            "4",
+            "9",
+            "2",
+            "0",
+            "6",
+            "6"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 18658.2
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 25,
+                "valorPremio": 1066.18
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 424,
+                "valorPremio": 62.86
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 3902,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 697,
+        "numeroConcursoAnterior": 696,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 698,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 450347.5,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 824597.72,
+        "valorEstimadoProximoConcurso": 900000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 68414.83
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "21\/05\/2025",
+        "dataProximoConcurso": "23\/05\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "0",
+            "8",
+            "5",
+            "7",
+            "6",
+            "0",
+            "4"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "0",
+            "8",
+            "5",
+            "7",
+            "6",
+            "0",
+            "4"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 19,
+                "valorPremio": 1170.47
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 324,
+                "valorPremio": 68.63
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 3082,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 696,
+        "numeroConcursoAnterior": 695,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 697,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 373762.5,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 756182.89,
+        "valorEstimadoProximoConcurso": 800000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 72649.88
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "19\/05\/2025",
+        "dataProximoConcurso": "21\/05\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "8",
+            "9",
+            "1",
+            "1",
+            "9",
+            "8",
+            "5"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "8",
+            "9",
+            "1",
+            "1",
+            "9",
+            "8",
+            "5"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 3,
+                "valorPremio": 5787.79
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 31,
+                "valorPremio": 800.15
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 481,
+                "valorPremio": 51.56
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 4049,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 695,
+        "numeroConcursoAnterior": 694,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 696,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 423865,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 683533.02,
+        "valorEstimadoProximoConcurso": 750000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 63668.97
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "16\/05\/2025",
+        "dataProximoConcurso": "19\/05\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "4",
+            "1",
+            "1",
+            "1",
+            "1",
+            "8",
+            "7"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "4",
+            "1",
+            "1",
+            "1",
+            "1",
+            "8",
+            "7"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 21,
+                "valorPremio": 1150.61
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 479,
+                "valorPremio": 50.44
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 3796,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 694,
+        "numeroConcursoAnterior": 693,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 695,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 411205,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 619864.05,
+        "valorEstimadoProximoConcurso": 700000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 78934.17
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "14\/05\/2025",
+        "dataProximoConcurso": "16\/05\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "3",
+            "4",
+            "4",
+            "5",
+            "4",
+            "0",
+            "1"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "3",
+            "4",
+            "4",
+            "5",
+            "4",
+            "0",
+            "1"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 23,
+                "valorPremio": 938.35
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 335,
+                "valorPremio": 64.42
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 3299,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 693,
+        "numeroConcursoAnterior": 692,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 694,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 366240,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 540929.89,
+        "valorEstimadoProximoConcurso": 600000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 70503.12
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "12\/05\/2025",
+        "dataProximoConcurso": "14\/05\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "6",
+            "0",
+            "4",
+            "8",
+            "0",
+            "5",
+            "5"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "6",
+            "0",
+            "4",
+            "8",
+            "0",
+            "5",
+            "5"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 17139.54
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 20,
+                "valorPremio": 1224.25
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 358,
+                "valorPremio": 68.39
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 3406,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 692,
+        "numeroConcursoAnterior": 691,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 693,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 411655,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 470426.77,
+        "valorEstimadoProximoConcurso": 500000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 62846.04
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "09\/05\/2025",
+        "dataProximoConcurso": "12\/05\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "1",
+            "7",
+            "8",
+            "5",
+            "5",
+            "6",
+            "4"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "1",
+            "7",
+            "8",
+            "5",
+            "5",
+            "6",
+            "4"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 16583.77
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 35,
+                "valorPremio": 676.88
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 475,
+                "valorPremio": 49.87
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 4245,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 691,
+        "numeroConcursoAnterior": 690,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 692,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 409147.5,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 407580.74,
+        "valorEstimadoProximoConcurso": 450000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 60809.38
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "07\/05\/2025",
+        "dataProximoConcurso": "09\/05\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "8",
+            "3",
+            "5",
+            "8",
+            "7",
+            "2",
+            "5"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "8",
+            "3",
+            "5",
+            "8",
+            "7",
+            "2",
+            "5"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 32,
+                "valorPremio": 695.79
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 403,
+                "valorPremio": 55.24
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 3457,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 690,
+        "numeroConcursoAnterior": 689,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 691,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 378445,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 346771.36,
+        "valorEstimadoProximoConcurso": 400000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 72736.35
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "05\/05\/2025",
+        "dataProximoConcurso": "07\/05\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "6",
+            "8",
+            "5",
+            "5",
+            "6",
+            "7",
+            "4"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "6",
+            "8",
+            "5",
+            "5",
+            "6",
+            "7",
+            "4"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 16826.44
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 26,
+                "valorPremio": 924.52
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 432,
+                "valorPremio": 55.64
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 3746,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 689,
+        "numeroConcursoAnterior": 688,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 690,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 408727.5,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 274035.02,
+        "valorEstimadoProximoConcurso": 350000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 61698.01
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "02\/05\/2025",
+        "dataProximoConcurso": "05\/05\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "0",
+            "2",
+            "2",
+            "6",
+            "7",
+            "8",
+            "6"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "0",
+            "2",
+            "2",
+            "6",
+            "7",
+            "8",
+            "6"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 3,
+                "valorPremio": 4703.65
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 37,
+                "valorPremio": 544.82
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 419,
+                "valorPremio": 48.11
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 3613,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 688,
+        "numeroConcursoAnterior": 687,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 689,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 348150,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 212337.01,
+        "valorEstimadoProximoConcurso": 300000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 51740.49
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "30\/04\/2025",
+        "dataProximoConcurso": "02\/05\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "8",
+            "3",
+            "5",
+            "9",
+            "0",
+            "0",
+            "0"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "8",
+            "3",
+            "5",
+            "9",
+            "0",
+            "0",
+            "0"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 14036.27
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 32,
+                "valorPremio": 626.61
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 354,
+                "valorPremio": 56.64
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 2967,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 687,
+        "numeroConcursoAnterior": 686,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 688,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 339150,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 160596.52,
+        "valorEstimadoProximoConcurso": 250000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 51467.43
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "28\/04\/2025",
+        "dataProximoConcurso": "30\/04\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "0",
+            "2",
+            "3",
+            "9",
+            "6",
+            "0",
+            "0"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "0",
+            "2",
+            "3",
+            "9",
+            "6",
+            "0",
+            "0"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 14502.56
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 25,
+                "valorPremio": 828.71
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 367,
+                "valorPremio": 56.45
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 3280,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 686,
+        "numeroConcursoAnterior": 685,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 687,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 352865,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 109129.1,
+        "valorEstimadoProximoConcurso": 200000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 53176.73
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "25\/04\/2025",
+        "dataProximoConcurso": "28\/04\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "9",
+            "1",
+            "5",
+            "0",
+            "5",
+            "3",
+            "7"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "9",
+            "1",
+            "5",
+            "0",
+            "5",
+            "3",
+            "7"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 6,
+                "valorPremio": 2543.13
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 51,
+                "valorPremio": 427.41
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 523,
+                "valorPremio": 41.67
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 3621,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 685,
+        "numeroConcursoAnterior": 684,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 686,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 373205,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 55952.38,
+        "valorEstimadoProximoConcurso": 150000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 55952.38
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "23\/04\/2025",
+        "dataProximoConcurso": "25\/04\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "6",
+            "7",
+            "7",
+            "1",
+            "6",
+            "7",
+            "7"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "6",
+            "7",
+            "7",
+            "1",
+            "6",
+            "7",
+            "7"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 1,
+                "municipio": "BELO HORIZONTE",
+                "nomeFatansiaUL": "",
+                "posicao": 1,
+                "serie": "",
+                "uf": "MG"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 1511531.27
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 32688.92
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 60,
+                "valorPremio": 778.3
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 1039,
+                "valorPremio": 44.94
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 7201,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 684,
+        "numeroConcursoAnterior": 683,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 685,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 793167.5,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 0,
+        "valorEstimadoProximoConcurso": 100000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 1511531.27
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "16\/04\/2025",
+        "dataProximoConcurso": "23\/04\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "3",
+            "4",
+            "0",
+            "2",
+            "0",
+            "8",
+            "0"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "3",
+            "4",
+            "0",
+            "2",
+            "0",
+            "8",
+            "0"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 2,
+                "valorPremio": 11347.45
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 31,
+                "valorPremio": 1045.84
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 503,
+                "valorPremio": 64.45
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 4790,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 683,
+        "numeroConcursoAnterior": 682,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 684,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 548280,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 1391667.52,
+        "valorEstimadoProximoConcurso": 1500000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 83216.82
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "14\/04\/2025",
+        "dataProximoConcurso": "16\/04\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "1",
+            "4",
+            "1",
+            "2",
+            "7",
+            "1",
+            "2"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "1",
+            "4",
+            "1",
+            "2",
+            "7",
+            "1",
+            "2"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 2,
+                "valorPremio": 14214.3
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 50,
+                "valorPremio": 812.24
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 813,
+                "valorPremio": 49.95
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 6753,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 682,
+        "numeroConcursoAnterior": 681,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 683,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 695395,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 1308450.71,
+        "valorEstimadoProximoConcurso": 1400000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 104240.41
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "11\/04\/2025",
+        "dataProximoConcurso": "14\/04\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "0",
+            "6",
+            "2",
+            "5",
+            "5",
+            "7",
+            "2"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "0",
+            "6",
+            "2",
+            "5",
+            "5",
+            "7",
+            "2"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 2,
+                "valorPremio": 13768.54
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 50,
+                "valorPremio": 786.77
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 756,
+                "valorPremio": 52.03
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 6287,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 681,
+        "numeroConcursoAnterior": 680,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 682,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 670685,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 1204210.31,
+        "valorEstimadoProximoConcurso": 1300000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 100972.27
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "09\/04\/2025",
+        "dataProximoConcurso": "11\/04\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "8",
+            "5",
+            "4",
+            "5",
+            "0",
+            "2",
+            "5"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "8",
+            "5",
+            "4",
+            "5",
+            "0",
+            "2",
+            "5"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 22666.86
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 30,
+                "valorPremio": 1079.37
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 512,
+                "valorPremio": 63.24
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 4610,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 680,
+        "numeroConcursoAnterior": 679,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 681,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 545615,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 1103238.04,
+        "valorEstimadoProximoConcurso": 1200000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 83113.52
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "07\/04\/2025",
+        "dataProximoConcurso": "09\/04\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "9",
+            "3",
+            "2",
+            "9",
+            "7",
+            "2",
+            "4"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "9",
+            "3",
+            "2",
+            "9",
+            "7",
+            "2",
+            "4"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 25624.36
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 25,
+                "valorPremio": 1464.24
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 497,
+                "valorPremio": 73.65
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 5229,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 679,
+        "numeroConcursoAnterior": 678,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 680,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 617005,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 1020124.52,
+        "valorEstimadoProximoConcurso": 1100000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 93957.65
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "04\/04\/2025",
+        "dataProximoConcurso": "07\/04\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "2",
+            "3",
+            "1",
+            "5",
+            "9",
+            "0",
+            "7"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "2",
+            "3",
+            "1",
+            "5",
+            "9",
+            "0",
+            "7"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 19211.77
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 48,
+                "valorPremio": 571.77
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 538,
+                "valorPremio": 51.01
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 5043,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 678,
+        "numeroConcursoAnterior": 677,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 679,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 475415,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 926166.87,
+        "valorEstimadoProximoConcurso": 1000000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 70444.85
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "02\/04\/2025",
+        "dataProximoConcurso": "04\/04\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "6",
+            "2",
+            "1",
+            "8",
+            "2",
+            "1",
+            "0"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "6",
+            "2",
+            "1",
+            "8",
+            "2",
+            "1",
+            "0"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 37,
+                "valorPremio": 670.18
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 511,
+                "valorPremio": 48.52
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 3915,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 677,
+        "numeroConcursoAnterior": 676,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 678,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 422215,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 855722.02,
+        "valorEstimadoProximoConcurso": 950000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 81005.8
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "31\/03\/2025",
+        "dataProximoConcurso": "02\/04\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "3",
+            "9",
+            "7",
+            "8",
+            "7",
+            "9",
+            "1"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "3",
+            "9",
+            "7",
+            "8",
+            "7",
+            "9",
+            "1"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 3,
+                "valorPremio": 6146.45
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 28,
+                "valorPremio": 940.78
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 355,
+                "valorPremio": 74.2
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 4115,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 676,
+        "numeroConcursoAnterior": 675,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 677,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 448020,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 774716.23,
+        "valorEstimadoProximoConcurso": 850000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 67611.74
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "28\/03\/2025",
+        "dataProximoConcurso": "31\/03\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "0",
+            "3",
+            "6",
+            "0",
+            "7",
+            "0",
+            "2"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "0",
+            "3",
+            "6",
+            "0",
+            "7",
+            "0",
+            "2"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 27,
+                "valorPremio": 937.84
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 321,
+                "valorPremio": 78.88
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 3628,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 675,
+        "numeroConcursoAnterior": 674,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 676,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 426927.5,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 707104.49,
+        "valorEstimadoProximoConcurso": 800000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 82718.58
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "26\/03\/2025",
+        "dataProximoConcurso": "28\/03\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "4",
+            "4",
+            "1",
+            "7",
+            "0",
+            "2",
+            "6"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "4",
+            "4",
+            "1",
+            "7",
+            "0",
+            "2",
+            "6"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 17,
+                "valorPremio": 1281.16
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 333,
+                "valorPremio": 65.4
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 3160,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 674,
+        "numeroConcursoAnterior": 673,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 675,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 367660,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 624385.92,
+        "valorEstimadoProximoConcurso": 750000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 71148.28
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "24\/03\/2025",
+        "dataProximoConcurso": "26\/03\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "6",
+            "5",
+            "9",
+            "9",
+            "7",
+            "5",
+            "5"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "6",
+            "5",
+            "9",
+            "9",
+            "7",
+            "5",
+            "5"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 16589.98
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 25,
+                "valorPremio": 947.99
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 411,
+                "valorPremio": 57.66
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 3547,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 673,
+        "numeroConcursoAnterior": 672,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 674,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 401312.5,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 553237.65,
+        "valorEstimadoProximoConcurso": 650000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 60831.24
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "21\/03\/2025",
+        "dataProximoConcurso": "24\/03\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "5",
+            "2",
+            "1",
+            "6",
+            "7",
+            "6",
+            "9"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "5",
+            "2",
+            "1",
+            "6",
+            "7",
+            "6",
+            "9"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 33,
+                "valorPremio": 701.36
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 440,
+                "valorPremio": 52.6
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 3960,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 672,
+        "numeroConcursoAnterior": 671,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 673,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 397582.5,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 492406.41,
+        "valorEstimadoProximoConcurso": 600000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 75608.75
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "19\/03\/2025",
+        "dataProximoConcurso": "21\/03\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "8",
+            "8",
+            "6",
+            "6",
+            "4",
+            "3",
+            "7"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "8",
+            "8",
+            "6",
+            "6",
+            "4",
+            "3",
+            "7"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 25,
+                "valorPremio": 832.09
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 345,
+                "valorPremio": 60.29
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 3018,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 671,
+        "numeroConcursoAnterior": 670,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 672,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 351157.5,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 416797.67,
+        "valorEstimadoProximoConcurso": 550000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 67955.7
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "17\/03\/2025",
+        "dataProximoConcurso": "19\/03\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "9",
+            "8",
+            "4",
+            "0",
+            "9",
+            "1",
+            "5"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "9",
+            "8",
+            "4",
+            "0",
+            "9",
+            "1",
+            "5"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 16550.68
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 29,
+                "valorPremio": 815.3
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 325,
+                "valorPremio": 72.75
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 3180,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 670,
+        "numeroConcursoAnterior": 669,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 671,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 396267.5,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 348841.97,
+        "valorEstimadoProximoConcurso": 500000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 60685.99
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "14\/03\/2025",
+        "dataProximoConcurso": "17\/03\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "9",
+            "7",
+            "5",
+            "1",
+            "4",
+            "0",
+            "7"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "9",
+            "7",
+            "5",
+            "1",
+            "4",
+            "0",
+            "7"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 16,
+                "valorPremio": 1380.44
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 389,
+                "valorPremio": 56.77
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 3404,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 669,
+        "numeroConcursoAnterior": 668,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 670,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 375125,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 288155.99,
+        "valorEstimadoProximoConcurso": 400000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 72153.67
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "12\/03\/2025",
+        "dataProximoConcurso": "14\/03\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "5",
+            "5",
+            "9",
+            "9",
+            "6",
+            "7",
+            "3"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "5",
+            "5",
+            "9",
+            "9",
+            "6",
+            "7",
+            "3"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 16,
+                "valorPremio": 1258.07
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 338,
+                "valorPremio": 59.55
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 3060,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 668,
+        "numeroConcursoAnterior": 667,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 669,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 341390,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 216002.33,
+        "valorEstimadoProximoConcurso": 300000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 65756.37
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "10\/03\/2025",
+        "dataProximoConcurso": "12\/03\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "5",
+            "8",
+            "3",
+            "3",
+            "4",
+            "9",
+            "4"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "5",
+            "8",
+            "3",
+            "3",
+            "4",
+            "9",
+            "4"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 16067.06
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 22,
+                "valorPremio": 1043.31
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 381,
+                "valorPremio": 60.24
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 3408,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 667,
+        "numeroConcursoAnterior": 666,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 668,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 388352.5,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 150245.97,
+        "valorEstimadoProximoConcurso": 250000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 58913.66
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "07\/03\/2025",
+        "dataProximoConcurso": "10\/03\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "2",
+            "4",
+            "6",
+            "3",
+            "4",
+            "6",
+            "1"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "2",
+            "4",
+            "6",
+            "3",
+            "4",
+            "6",
+            "1"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 35,
+                "valorPremio": 599.9
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 419,
+                "valorPremio": 50.11
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 3529,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 666,
+        "numeroConcursoAnterior": 665,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 667,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 359952.5,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 91332.32,
+        "valorEstimadoProximoConcurso": 200000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 68589.92
+    },
+    {
+        "acumulado": false,
+        "dataApuracao": "05\/03\/2025",
+        "dataProximoConcurso": "07\/03\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "2",
+            "9",
+            "5",
+            "9",
+            "3",
+            "7",
+            "2"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "2",
+            "9",
+            "5",
+            "9",
+            "3",
+            "7",
+            "2"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [
+            {
+                "ganhadores": 1,
+                "municipio": "SAO PAULO",
+                "nomeFatansiaUL": "",
+                "posicao": 1,
+                "serie": "",
+                "uf": "SP"
+            }
+        ],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 1427558.87
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 31,
+                "valorPremio": 1048.03
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 515,
+                "valorPremio": 63.08
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 4957,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 665,
+        "numeroConcursoAnterior": 664,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 666,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 551220,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 22742.4,
+        "valorEstimadoProximoConcurso": 100000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 1450301.27
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "28\/02\/2025",
+        "dataProximoConcurso": "05\/03\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "5",
+            "8",
+            "9",
+            "1",
+            "5",
+            "4",
+            "1"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "5",
+            "8",
+            "9",
+            "1",
+            "5",
+            "4",
+            "1"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 21311.8
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 34,
+                "valorPremio": 895.45
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 486,
+                "valorPremio": 62.64
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 4519,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 664,
+        "numeroConcursoAnterior": 663,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 665,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 515105,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 1344167.89,
+        "valorEstimadoProximoConcurso": 1500000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 78145
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "26\/02\/2025",
+        "dataProximoConcurso": "28\/02\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "2",
+            "3",
+            "5",
+            "8",
+            "3",
+            "1",
+            "6"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "2",
+            "3",
+            "5",
+            "8",
+            "3",
+            "1",
+            "6"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 51,
+                "valorPremio": 513.12
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 485,
+                "valorPremio": 53.95
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 4346,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 663,
+        "numeroConcursoAnterior": 662,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 664,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 448032.5,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 1266022.9,
+        "valorEstimadoProximoConcurso": 1400000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 85490
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "24\/02\/2025",
+        "dataProximoConcurso": "26\/02\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "1",
+            "4",
+            "4",
+            "5",
+            "7",
+            "8",
+            "9"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "1",
+            "4",
+            "4",
+            "5",
+            "7",
+            "8",
+            "9"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 8,
+                "valorPremio": 2572.49
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 82,
+                "valorPremio": 358.53
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 881,
+                "valorPremio": 33.37
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 5513,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 662,
+        "numeroConcursoAnterior": 661,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 663,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 510537.5,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 1180532.9,
+        "valorEstimadoProximoConcurso": 1300000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 75460.77
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "21\/02\/2025",
+        "dataProximoConcurso": "24\/02\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "4",
+            "9",
+            "9",
+            "8",
+            "8",
+            "5",
+            "2"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "4",
+            "9",
+            "9",
+            "8",
+            "8",
+            "5",
+            "2"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 20914.09
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 32,
+                "valorPremio": 933.66
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 470,
+                "valorPremio": 63.56
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 4115,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 661,
+        "numeroConcursoAnterior": 660,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 662,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 501842.5,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 1105072.13,
+        "valorEstimadoProximoConcurso": 1200000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 76687.97
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "19\/02\/2025",
+        "dataProximoConcurso": "21\/02\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "4",
+            "3",
+            "5",
+            "1",
+            "2",
+            "8",
+            "9"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "4",
+            "3",
+            "5",
+            "1",
+            "2",
+            "8",
+            "9"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 3,
+                "valorPremio": 6463.19
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 43,
+                "valorPremio": 644.17
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 531,
+                "valorPremio": 52.16
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 4779,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 660,
+        "numeroConcursoAnterior": 659,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 661,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 476267.5,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 1028384.17,
+        "valorEstimadoProximoConcurso": 1150000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 71096.83
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "17\/02\/2025",
+        "dataProximoConcurso": "19\/02\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "5",
+            "5",
+            "7",
+            "4",
+            "3",
+            "6",
+            "3"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "5",
+            "5",
+            "7",
+            "4",
+            "3",
+            "6",
+            "3"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 3,
+                "valorPremio": 6758.58
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 38,
+                "valorPremio": 762.24
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 580,
+                "valorPremio": 49.94
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 4752,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 659,
+        "numeroConcursoAnterior": 658,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 660,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 495232.5,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 957287.34,
+        "valorEstimadoProximoConcurso": 1100000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 74344.67
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "14\/02\/2025",
+        "dataProximoConcurso": "17\/02\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "0",
+            "9",
+            "7",
+            "2",
+            "7",
+            "5",
+            "4"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "0",
+            "9",
+            "7",
+            "2",
+            "7",
+            "5",
+            "4"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 18798.75
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 29,
+                "valorPremio": 926.04
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 417,
+                "valorPremio": 64.4
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 4197,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 658,
+        "numeroConcursoAnterior": 657,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 659,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 456772.5,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 882942.67,
+        "valorEstimadoProximoConcurso": 1000000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 68929.26
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "12\/02\/2025",
+        "dataProximoConcurso": "14\/02\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "5",
+            "5",
+            "7",
+            "6",
+            "4",
+            "9",
+            "7"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "5",
+            "5",
+            "7",
+            "6",
+            "4",
+            "9",
+            "7"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 17629.15
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 27,
+                "valorPremio": 932.75
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 440,
+                "valorPremio": 57.23
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 3892,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 657,
+        "numeroConcursoAnterior": 656,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 658,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 427852.5,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 814013.42,
+        "valorEstimadoProximoConcurso": 950000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 64642.67
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "10\/02\/2025",
+        "dataProximoConcurso": "12\/02\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "5",
+            "9",
+            "3",
+            "9",
+            "7",
+            "2",
+            "6"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "5",
+            "9",
+            "3",
+            "9",
+            "7",
+            "2",
+            "6"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 2,
+                "valorPremio": 10055.57
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 30,
+                "valorPremio": 957.67
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 480,
+                "valorPremio": 59.85
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 3985,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 656,
+        "numeroConcursoAnterior": 655,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 657,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 482895,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 749370.76,
+        "valorEstimadoProximoConcurso": 900000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 73742.5
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "07\/02\/2025",
+        "dataProximoConcurso": "10\/02\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "8",
+            "7",
+            "7",
+            "7",
+            "9",
+            "7",
+            "9"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "8",
+            "7",
+            "7",
+            "7",
+            "9",
+            "7",
+            "9"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 3,
+                "valorPremio": 6242.2
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 49,
+                "valorPremio": 545.96
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 602,
+                "valorPremio": 44.43
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 4184,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 655,
+        "numeroConcursoAnterior": 654,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 656,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 455055,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 675628.27,
+        "valorEstimadoProximoConcurso": 800000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 68668.2
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "05\/02\/2025",
+        "dataProximoConcurso": "07\/02\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "0",
+            "8",
+            "2",
+            "3",
+            "7",
+            "5",
+            "0"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "0",
+            "8",
+            "2",
+            "3",
+            "7",
+            "5",
+            "0"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 35,
+                "valorPremio": 700.93
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 590,
+                "valorPremio": 41.58
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 3740,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 654,
+        "numeroConcursoAnterior": 653,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 655,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 416195,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 606960.07,
+        "valorEstimadoProximoConcurso": 700000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 80140.93
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "03\/02\/2025",
+        "dataProximoConcurso": "05\/02\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "4",
+            "1",
+            "3",
+            "9",
+            "2",
+            "0",
+            "3"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "4",
+            "1",
+            "3",
+            "9",
+            "2",
+            "0",
+            "3"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 4,
+                "valorPremio": 4645.44
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 27,
+                "valorPremio": 983.16
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 453,
+                "valorPremio": 58.59
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 3872,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 653,
+        "numeroConcursoAnterior": 652,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 654,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 448342.5,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 526819.14,
+        "valorEstimadoProximoConcurso": 600000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 68136.07
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "31\/01\/2025",
+        "dataProximoConcurso": "03\/02\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "0",
+            "9",
+            "2",
+            "1",
+            "8",
+            "8",
+            "0"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "0",
+            "9",
+            "2",
+            "1",
+            "8",
+            "8",
+            "0"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 3,
+                "valorPremio": 5994.11
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 28,
+                "valorPremio": 917.46
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 396,
+                "valorPremio": 64.87
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 3771,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 652,
+        "numeroConcursoAnterior": 651,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 653,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 434152.5,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 458683.08,
+        "valorEstimadoProximoConcurso": 550000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 65935.76
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "29\/01\/2025",
+        "dataProximoConcurso": "31\/01\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "8",
+            "7",
+            "3",
+            "1",
+            "3",
+            "1",
+            "9"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "8",
+            "7",
+            "3",
+            "1",
+            "3",
+            "1",
+            "9"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 14762.2
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 24,
+                "valorPremio": 878.7
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 344,
+                "valorPremio": 61.3
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 3261,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 651,
+        "numeroConcursoAnterior": 650,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 652,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 358295,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 392747.32,
+        "valorEstimadoProximoConcurso": 500000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 54129.28
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "27\/01\/2025",
+        "dataProximoConcurso": "29\/01\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "0",
+            "7",
+            "6",
+            "1",
+            "6",
+            "9",
+            "8"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "0",
+            "7",
+            "6",
+            "1",
+            "6",
+            "9",
+            "8"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 16258.59
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 21,
+                "valorPremio": 1106.02
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 367,
+                "valorPremio": 63.28
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 3441,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 650,
+        "numeroConcursoAnterior": 649,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 651,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 392895,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 338618.05,
+        "valorEstimadoProximoConcurso": 380000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 59616.9
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "24\/01\/2025",
+        "dataProximoConcurso": "27\/01\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "9",
+            "6",
+            "4",
+            "7",
+            "8",
+            "2",
+            "3"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "9",
+            "6",
+            "4",
+            "7",
+            "8",
+            "2",
+            "3"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 1,
+                "valorPremio": 15559.72
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 25,
+                "valorPremio": 889.12
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 359,
+                "valorPremio": 61.91
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 3319,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 649,
+        "numeroConcursoAnterior": 648,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 650,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 376302.5,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 279001.16,
+        "valorEstimadoProximoConcurso": 300000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 57054.2
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "22\/01\/2025",
+        "dataProximoConcurso": "24\/01\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "9",
+            "7",
+            "4",
+            "5",
+            "5",
+            "8",
+            "0"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "9",
+            "7",
+            "4",
+            "5",
+            "5",
+            "8",
+            "0"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 22,
+                "valorPremio": 919.08
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 376,
+                "valorPremio": 53.77
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 3197,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 648,
+        "numeroConcursoAnterior": 647,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 649,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 344335,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 221946.96,
+        "valorEstimadoProximoConcurso": 250000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 66053.41
+    },
+    {
+        "acumulado": true,
+        "dataApuracao": "20\/01\/2025",
+        "dataProximoConcurso": "22\/01\/2025",
+        "dezenasSorteadasOrdemSorteio": [
+            "2",
+            "1",
+            "2",
+            "6",
+            "3",
+            "7",
+            "1"
+        ],
+        "exibirDetalhamentoPorCidade": true,
+        "id": null,
+        "indicadorConcursoEspecial": 1,
+        "listaDezenas": [
+            "2",
+            "1",
+            "2",
+            "6",
+            "3",
+            "7",
+            "1"
+        ],
+        "listaDezenasSegundoSorteio": null,
+        "listaMunicipioUFGanhadores": [],
+        "listaRateioPremio": [
+            {
+                "descricaoFaixa": "7 acertos",
+                "faixa": 1,
+                "numeroDeGanhadores": 0,
+                "valorPremio": 0
+            },
+            {
+                "descricaoFaixa": "6 acertos",
+                "faixa": 2,
+                "numeroDeGanhadores": 3,
+                "valorPremio": 5052.47
+            },
+            {
+                "descricaoFaixa": "5 acertos",
+                "faixa": 3,
+                "numeroDeGanhadores": 32,
+                "valorPremio": 676.66
+            },
+            {
+                "descricaoFaixa": "4 acertos",
+                "faixa": 4,
+                "numeroDeGanhadores": 427,
+                "valorPremio": 50.71
+            },
+            {
+                "descricaoFaixa": "3 acertos",
+                "faixa": 5,
+                "numeroDeGanhadores": 3832,
+                "valorPremio": 5
+            }
+        ],
+        "listaResultadoEquipeEsportiva": null,
+        "localSorteio": "Espa\u00e7o da Sorte",
+        "nomeMunicipioUFSorteio": "SAO PAULO, SP",
+        "nomeTimeCoracaoMesSorte": null,
+        "numero": 647,
+        "numeroConcursoAnterior": 646,
+        "numeroConcursoFinal_0_5": 0,
+        "numeroConcursoProximo": 648,
+        "numeroJogo": 7,
+        "observacao": "",
+        "premiacaoContingencia": null,
+        "tipoJogo": "SUPER_SETE",
+        "tipoPublicacao": 3,
+        "ultimoConcurso": true,
+        "valorArrecadado": 373410,
+        "valorAcumuladoConcurso_0_5": 0,
+        "valorAcumuladoConcursoEspecial": 0,
+        "valorAcumuladoProximoConcurso": 155893.55,
+        "valorEstimadoProximoConcurso": 200000,
+        "valorSaldoReservaGarantidora": 0,
+        "valorTotalPremioFaixaUm": 55577.56
+    }
+]
