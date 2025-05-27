@@ -1,0 +1,110 @@
+<?php
+
+// api_handler.php
+
+// Garante que stats_handler.php é incluído para load/saveHistoricalResults
+require_once 'stats_handler.php';
+
+/**
+ * Busca os resultados da loteria na API da Caixa.
+ * Pode buscar o concurso mais recente ou um concurso específico.
+ * Após o sucesso, salva o resultado no histórico local para estatísticas.
+ * @param string $lotteryType O tipo de loteria (ex: 'megasena', 'quina').
+ * @param int|null $contestNumber O número do concurso específico a ser buscado. Se null, busca o mais recente.
+ * @return array|null Os dados do resultado da loteria ou null em caso de erro.
+ */
+function fetchLotteryResults(string $lotteryType, ?int $contestNumber = null): ?array
+{
+    $baseUrl = "https://servicebus2.caixa.gov.br/portaldeloterias/api/" . strtolower($lotteryType);
+    
+    // Constrói a URL da API: com número de concurso se fornecido, senão, a URL padrão do último concurso.
+    $apiUrl = $contestNumber !== null ? $baseUrl . '/' . $contestNumber : $baseUrl;
+
+    error_log("Tentando buscar resultados para a loteria: " . $lotteryType . ($contestNumber ? " (Concurso: " . $contestNumber . ")" : " (Último Concurso)") . " da URL: " . $apiUrl);
+
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $apiUrl);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_TIMEOUT, 15);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false); 
+
+    $response = curl_exec($ch);
+    $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+
+    if (curl_errno($ch)) {
+        $curlError = curl_error($ch);
+        error_log("Erro cURL ao buscar resultados da loteria " . $lotteryType . ": " . $curlError);
+        curl_close($ch);
+        return null;
+    }
+
+    curl_close($ch);
+
+    error_log("Resposta HTTP da API da Caixa para " . $lotteryType . ": Status " . $httpCode . ", Tamanho: " . strlen($response));
+
+    if ($httpCode !== 200) {
+        error_log("API da Caixa retornou status " . $httpCode . " para " . $lotteryType . ". Resposta: " . $response);
+        return null;
+    }
+
+    $data = json_decode($response, true);
+
+    if (json_last_error() !== JSON_ERROR_NONE) {
+        error_log("Erro ao decodificar JSON da API da Caixa para " . $lotteryType . ": " . json_last_error_msg());
+        error_log("JSON cru: " . $response);
+        return null;
+    }
+
+    error_log("Dados da API da Caixa decodificados com sucesso para " . $lotteryType);
+
+    // Salvar o resultado no histórico local para estatísticas (apenas se for um concurso válido)
+    if ($data && isset($data['numero']) && is_numeric($data['numero'])) {
+        updateLotteryHistory($lotteryType, $data);
+    } else {
+        error_log("Resultado da API da Caixa para " . $lotteryType . " não contém um 'numero' de concurso válido. Não será salvo no histórico.");
+    }
+
+    return $data;
+}
+
+/**
+ * Atualiza o histórico de resultados de uma loteria, adicionando um novo concurso
+ * se ele ainda não existir.
+ * @param string $lotteryType O tipo de loteria.
+ * @param array $newResult O array associativo do novo resultado do concurso.
+ */
+function updateLotteryHistory(string $lotteryType, array $newResult): void
+{
+    $historicalData = loadHistoricalResults($lotteryType); 
+
+    $contestNumber = $newResult['numero'] ?? null;
+
+    if ($contestNumber === null) {
+        error_log("Erro: Resultado do concurso sem número para " . $lotteryType . ". Não será salvo no histórico.");
+        return;
+    }
+
+    $found = false;
+    foreach ($historicalData as $existingResult) {
+        if (isset($existingResult['numero']) && $existingResult['numero'] == $contestNumber) {
+            $found = true;
+            break;
+        }
+    }
+
+    if (!$found) {
+        $historicalData[] = $newResult;
+        usort($historicalData, function($a, $b) {
+            return ($b['numero'] ?? 0) <=> ($a['numero'] ?? 0); // Ordena de forma decrescente
+        });
+        saveHistoricalResults($lotteryType, $historicalData); 
+        error_log("Concurso " . $contestNumber . " da " . $lotteryType . " salvo no histórico local.");
+    } else {
+        error_log("Concurso " . $contestNumber . " da " . $lotteryType . " já existe no histórico local. Não duplicado.");
+    }
+}
+
+// A função getPreviousLotteryResult foi removida daqui, pois a navegação será feita diretamente pela API.
+// Ela ainda é usada em stats_handler.php para análise de histórico, se necessário.
+
+?>

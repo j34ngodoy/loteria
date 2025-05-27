@@ -1,0 +1,52 @@
+<?php
+
+// ai_analyzer.php
+require 'vendor/autoload.php'; // Certifique-se de que o autoload do Composer está incluído
+
+use Phpml\Association\Apriori;
+use Phpml\Clustering\KMeans;
+// use Phpml\Classification\NaiveBayes; // Outras opções
+
+function analyzeWithAI(string $lotteryType): array
+{
+    $historicalData = loadHistoricalResults($lotteryType); // Carrega dados históricos
+
+    // Exemplo: Usando Apriori para encontrar padrões de números que saem juntos
+    // Adapte 'dezenasSorteadas' ao nome real do campo na sua API/histórico
+    $samples = array_map(function($contest) {
+        return isset($contest['dezenasSorteadas']) ? array_map('strval', $contest['dezenasSorteadas']) : [];
+    }, $historicalData);
+
+    $apriori = new Apriori($support = 0.1, $confidence = 0.5); // Ajuste suporte e confiança
+    $apriori->train($samples);
+    $rules = $apriori->getRules();
+
+    $insights = [];
+    foreach ($rules as $rule) {
+        $antecedent = implode(', ', $rule['antecedent']);
+        $consequent = implode(', ', $rule['consequent']);
+        $insights[] = "Se os números {$antecedent} saem, então {$consequent} também tendem a sair (Confiança: {$rule['confidence']})";
+    }
+
+    // Exemplo: Usando K-Means para agrupar concursos por similaridade de números
+    // Isso exigiria converter os números sorteados em um vetor numérico
+    // $kmeansSamples = []; // Prepare seus dados numéricos aqui
+    // $kmeans = new KMeans($k = 3); // 3 clusters, por exemplo
+    // $clusters = $kmeans->cluster($kmeansSamples);
+
+    return [
+        'aprioriRules' => $insights,
+        // 'kmeansClusters' => $clusters,
+        'message' => 'Análise de IA concluída. Lembre-se que loterias são jogos de azar e a IA não garante resultados.'
+    ];
+}
+
+// Exemplo de uso em um endpoint (ex: api.php?action=getAIAnalysis&lottery=megasena)
+// if (isset($_GET['action']) && $_GET['action'] === 'getAIAnalysis' && isset($_GET['lottery'])) {
+//     header('Content-Type: application/json');
+//     $analysis = analyzeWithAI($_GET['lottery']);
+//     echo json_encode($analysis);
+//     exit;
+// }
+
+?>
