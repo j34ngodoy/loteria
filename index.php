@@ -1,12 +1,287 @@
-<?php
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Loterias</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Define a fonte Inter como padrão para todo o corpo do documento */
+        body {
+            font-family: 'Inter', sans-serif;
+            transition: background-color 0.3s, color 0.3s;
+            /* overflow-y: hidden; /* Esconde a barra de rolagem enquanto o modal está ativo */
+        }
+        body.modal-open {
+            overflow-y: hidden; /* Impede rolagem da página principal quando o modal está aberto */
+        }
 
-include('../header.php');
+        /* Tema Claro (padrão) */
+        body {
+            background-color: #f0f4f8; /* Azul claro suave */
+            color: #334155; /* Cinza escuro */
+        }
+        .container-card {
+            background-color: #ffffff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .button-primary {
+            background-color: #6366f1; /* Azul violeta */
+            color: white;
+        }
+        .button-secondary {
+            background-color: #e2e8f0; /* Cinza claro */
+            color: #475569;
+        }
+        /* Retângulo azul claro para destaque */
+        .highlight-rectangle {
+            background-color: #e0f2f7; /* Azul claro (quase branco) */
+            color: #2c5282; /* Azul escuro para o texto */
+            padding: 0.5rem 0.75rem;
+            border-radius: 0.375rem; /* rounded-md */
+            font-weight: 600; /* font-semibold */
+            display: inline-block; /* Para que o padding funcione e ocupe o espaço necessário */
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+        }
+        body.dark-mode .highlight-rectangle {
+            background-color: #2a4365; /* Azul mais escuro no tema escuro */
+            color: #e0f2f7;
+        }
 
-?>
+        /* Tema Escuro */
+        body.dark-mode {
+            background-color: #1a202c; /* Cinza escuro */
+            color: #e2e8f0; /* Cinza claro */
+        }
+        body.dark-mode .container-card {
+            background-color: #2d3748; /* Cinza mais escuro */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        body.dark-mode .button-primary {
+            background-color: #818cf8; /* Azul violeta mais claro */
+            color: white;
+        }
+        body.dark-mode .button-secondary {
+            background-color: #4a5568; /* Cinza escuro */
+            color: #cbd5e0;
+        }
+
+        /* Estilos adicionais para botões */
+        .btn-modern {
+            padding: 0.75rem 1.5rem;
+            border-radius: 9999px; /* Botões arredondados para um visual moderno */
+            font-weight: 600;
+            transition: background-color 0.2s, transform 0.1s;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            cursor: pointer;
+            border: none;
+        }
+        .btn-modern:hover {
+            transform: translateY(-2px); /* Efeito sutil ao passar o mouse */
+        }
+        .btn-modern:active {
+            transform: translateY(0); /* Efeito ao clicar */
+        }
+        .btn-modern.button-primary:hover {
+            background-color: #4f46e5;
+        }
+        .btn-modern.button-secondary:hover {
+            background-color: #cbd5e0;
+        }
+        body.dark-mode .btn-modern.button-secondary:hover {
+            background-color: #64748b;
+        }
+
+        /* Estilo para os números gerados (bolhas) */
+        .number-bubble {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            /* Tamanho fixo, mas responsivo pelo flexbox do pai */
+            width: 2.5rem; /* 40px */
+            height: 2.5rem; /* 40px */
+            border-radius: 50%;
+            background-color: #a78bfa; /* Roxo suave */
+            color: white;
+            font-weight: bold;
+            margin: 0.25rem; /* Espaçamento entre as bolhas */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            /* Garante que o texto dentro da bolha se ajuste */
+            font-size: 0.875rem; /* text-sm */
+            line-height: 1.25rem; /* leading-tight */
+        }
+        /* Ajuste de tamanho da fonte para telas menores, se necessário */
+        @media (max-width: 640px) { /* sm breakpoint */
+            .number-bubble {
+                width: 2.2rem; /* Ligeiramente menor em celulares */
+                height: 2.2rem;
+                font-size: 0.8rem;
+            }
+        }
+
+        body.dark-mode .number-bubble {
+            background-color: #c4b5fd; /* Roxo mais claro no tema escuro */
+        }
+
+        /* Estilos para trevos da +Milionária */
+        .trevo-bubble {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 2.5rem;
+            height: 2.5rem;
+            border-radius: 50%;
+            background-color: #34d399; /* Verde esmeralda */
+            color: white;
+            font-weight: bold;
+            margin: 0.25rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            font-size: 0.875rem;
+            line-height: 1.25rem;
+        }
+        body.dark-mode .trevo-bubble {
+            background-color: #6ee7b7; /* Verde mais claro no tema escuro */
+        }
+
+        /* Estilos para tabelas */
+        .table-auto {
+            width: 100%; /* Garante que a tabela ocupe a largura total disponível */
+            border-collapse: collapse;
+        }
+        .table-auto th, .table-auto td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        body.dark-mode .table-auto th, body.dark-mode .table-auto td {
+            border-bottom: 1px solid #4a5568;
+        }
+        .table-auto th {
+            background-color: #f8fafc;
+            font-weight: 600;
+        }
+        body.dark-mode .table-auto th {
+            background-color: #2d3748;
+        }
+
+        /* Modal */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1000; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+            display: flex; /* Centraliza o conteúdo do modal */
+            align-items: center;
+            justify-content: center;
+        }
+        .modal-content {
+            background-color: #fefefe;
+            margin: auto;
+            padding: 20px;
+            border-radius: 0.5rem;
+            width: 90%; /* Ajuste para ser mais responsivo */
+            max-width: 500px; /* Limite máximo de largura */
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            position: relative;
+        }
+        body.dark-mode .modal-content {
+            background-color: #2d3748;
+            color: #e2e8f0;
+        }
+        .close-button {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .close-button:hover,
+        .close-button:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        body.dark-mode .close-button {
+            color: #e2e8f0;
+        }
+        body.dark-mode .close-button:hover,
+        body.dark-mode .close-button:focus {
+            color: white;
+        }
+
+        /* Estilo para quebra de 6+6 em duas fileiras para .most-frequent-grid */
+        .most-frequent-grid {
+            display: flex; /* Usar flexbox para controle de linha */
+            flex-wrap: wrap; /* Permite quebras de linha */
+            gap: 0.5rem;
+            justify-content: center;
+            align-items: center;
+        }
+        /* Força a quebra de linha após o 6º elemento para o grid de 12 elementos */
+        .most-frequent-grid.cols-12 > :nth-child(6n+1):not(:first-child) {
+            /* Adiciona um espaço para forçar a quebra, se necessário */
+            /* flex-basis: 100%; */ /* Isso forçaria uma nova linha */
+        }
+        /* Para telas maiores, quebre em duas colunas fixas de 6 */
+        /* Removido o media query para 6+6, será feito via JS dinamicamente */
+
+        /* Estilo para o número completo da Federal */
+        .federal-number-block {
+            font-size: 1.5rem; /* text-2xl */
+            font-weight: bold;
+            color: #334155;
+            margin: 0.5rem 0;
+            padding: 0.5rem;
+            border: 1px solid #cbd5e0;
+            border-radius: 0.5rem;
+            display: inline-block;
+            background-color: #f8fafc;
+        }
+        body.dark-mode .federal-number-block {
+            color: #e2e8f0;
+            border-color: #4a5568;
+            background-color: #2d3748;
+        }
+    </style>
+</head>
 <body class="transition-colors duration-300">
-    <div class="min-h-screen flex flex-col items-center py-8 px-4 sm:px-6 lg:px-8">
+
+    <div id="termsModal" class="modal" style="display: flex;">
+        <div class="modal-content">
+            <h3 class="text-2xl font-semibold mb-4">Termo de Responsabilidade</h3>
+            <p class="mb-4 text-gray-700 dark:text-gray-300">
+                Ao acessar e utilizar este site, você declara estar ciente de que as loterias são jogos de azar. 
+                Este sistema tem como objetivo apenas auxiliar na geração e análise estatística de números, 
+                e **não garante nenhum tipo de ganho ou resultado em apostas**. A responsabilidade pelo uso 
+                das informações e pelos valores apostados é inteiramente sua. Jogue com moderação.
+            </p>
+            <div class="mb-4">
+                <label for="playerName" class="block text-sm font-medium mb-2">Seu Nome/Apelido:</label>
+                <input type="text" id="playerName" class="w-full p-2 border border-gray-300 rounded-md dark:bg-gray-700 dark:border-gray-600 dark:text-white" required>
+            </div>
+            <div class="mb-4 flex items-center">
+                <input type="checkbox" id="acceptTerms" class="mr-2 h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded dark:bg-gray-700 dark:border-gray-600" required>
+                <label for="acceptTerms" class="text-sm font-medium text-gray-700 dark:text-gray-300">
+                    Aceito os termos de responsabilidade
+                </label>
+            </div>
+            <button id="acceptTermsBtn" class="btn-modern button-primary w-full">Aceitar e Acessar</button>
+        </div>
+    </div>
+
+
+    <div id="main-content" class="min-h-screen flex flex-col items-center py-8 px-4 sm:px-6 lg:px-8">
         <header class="w-full max-w-4xl flex justify-between items-center mb-8">
-            <h3 class="text-2xl sm:text-4xl font-extrabold text-gray-900 dark:text-white">Aposta Inteligente - iTatecnica</h3>
+            <h1 class="text-3xl sm:text-4xl font-extrabold text-gray-900 dark:text-white">Loteria Inteligente</h1>
             <button id="themeToggle" class="btn-modern button-secondary">
                 <i class="fas fa-sun" id="themeIcon"></i>
                 <span class="ml-2">Alternar Tema</span>
@@ -43,7 +318,7 @@ include('../header.php');
                 <div class="mb-4 flex items-center">
                     <input type="checkbox" id="useStatsForGeneration" class="mr-2 h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded dark:bg-gray-700 dark:border-gray-600">
                     <label for="useStatsForGeneration" class="text-sm font-medium text-gray-700 dark:text-gray-300">
-                        Usar Estatísticas para Geração
+                        Usar Estatísticas para Geração (50% mais sorteados, 50% aleatórios)
                     </label>
                     <i class="fas fa-info-circle text-gray-400 ml-2 cursor-help" 
                        title="Gera números usando 50% dos mais sorteados e 50% de números aleatórios (incluindo os menos sorteados e não sorteados). Requer histórico populado na Análise Estatística."></i>
@@ -110,10 +385,10 @@ include('../header.php');
                         <option value="maismilionaria">+Milionária</option>
                     </select>
                 </div>
-<button id="populateHistoryBtn" class="btn-modern button-secondary w-full mb-4" disabled>
-    <i class="fas fa-cloud-download-alt"></i>
-    Popular Histórico (Últimos 50)
-</button>
+                <button id="populateHistoryBtn" class="btn-modern button-secondary w-full mb-4">
+                    <i class="fas fa-cloud-download-alt"></i>
+                    Popular Histórico (Últimos 50)
+                </button>
                 <button id="analyzeStatsBtn" class="btn-modern button-primary w-full">
                     <i class="fas fa-chart-bar"></i>
                     Analisar Estatísticas
@@ -121,7 +396,7 @@ include('../header.php');
                 <div id="statsResults" class="mt-4 grid grid-cols-1 lg:grid-cols-2 gap-4">
                     <div id="mostFrequentNumbersContainer" class="p-4 border border-dashed border-gray-300 rounded-md dark:border-gray-600">
                         <h3 class="text-xl font-medium mb-2">Números Mais Sorteados</h3>
-                        <div id="mostFrequentNumbers" class="text-gray-500 dark:text-gray-400 flex flex-wrap gap-2">
+                        <div id="mostFrequentNumbers" class="text-gray-500 dark:text-gray-400 flex flex-wrap gap-2 most-frequent-grid">
                             </div>
                     </div>
                     <div id="leastFrequentNumbersContainer" class="p-4 border border-dashed border-gray-300 rounded-md dark:border-gray-600">
@@ -187,14 +462,13 @@ include('../header.php');
             </section>
 
             <section class="container-card p-6 rounded-lg shadow-lg md:col-span-2">
-                <h2 class="text-2xl font-semibold mb-4">Análise po IA</h2>
+                <h2 class="text-2xl font-semibold mb-4">Análise de IA (PHP-ML)</h2>
                 <div class="mb-4">
-                    <label for="aiLotterySelect" class="block text-sm font-medium mb-2">Escolha a Loteria para IA:</label>
+                    <label for="aiLotterySelect" class="block text-sm font-medium mb-2">Escolha a Loteria:</label>
                     <select id="aiLotterySelect" class="w-full p-2 border border-gray-300 rounded-md dark:bg-gray-700 dark:border-gray-600 dark:text-white">
                         <option value="diadesorte">Dia de Sorte</option>
                         <option value="duplasena">Duplasena</option>
                         <option value="quina">Quina</option>
-                        <option value="loteca">Loteca</option>
                         <option value="lotofacil">Lotofácil</option>
                         <option value="lotomania">Lotomania</option>
                         <option value="megasena">Megasena</option>
@@ -214,8 +488,7 @@ include('../header.php');
         </main>
 
         <footer class="mt-8 text-center text-gray-600 dark:text-gray-400">
-            <p>&copy; 2025 Sistema de Loterias para auxiliar suas apostas. Desenvolvido por: jeGodoy.</p>
-			<p> Jogue com consciência, iTatecnica apoia o jogo responsável </p>
+            <p>&copy; 2023 Sistema de Loterias. Desenvolvido para auxiliar suas apostas.</p>
         </footer>
     </div>
 
@@ -259,6 +532,10 @@ include('../header.php');
 
         // Objeto para armazenar as estatísticas de números mais/menos sorteados
         let lotteryStatistics = {}; 
+
+        // Variáveis para identificação do jogador
+        let playerId = null;
+        let playerName = null;
 
         // Função para mostrar o modal de mensagem
         function showModal(title, message, isConfirm = false, confirmCallback = null) {
@@ -336,21 +613,57 @@ include('../header.php');
 
         const API_BASE_URL = 'api.php';
 
-        async function fetchData(action, params = {}) {
+        async function fetchData(action, params = {}, method = 'GET', body = null) {
             const urlParams = new URLSearchParams(params);
-            const url = `${API_BASE_URL}?action=${action}&${urlParams.toString()}`;
+            let url = `${API_BASE_URL}?action=${action}&${urlParams.toString()}`;
+            
+            const fetchOptions = { method: method };
+            if (body) {
+                fetchOptions.headers = { 'Content-Type': 'application/json' };
+                fetchOptions.body = JSON.stringify(body);
+            }
+
             try {
-                const response = await fetch(url);
+                const response = await fetch(url, fetchOptions);
                 if (!response.ok) {
                     const errorText = await response.text();
                     console.error(`Erro HTTP! status: ${response.status}, resposta: ${errorText}`);
-                    throw new Error(`Erro HTTP! status: ${response.status}`);
+                    throw new Error(`Erro HTTP! status: ${response.status} - ${errorText.substring(0, 100)}...`);
                 }
                 return await response.json();
             } catch (error) {
                 console.error('Erro ao buscar dados:', error);
                 showModal('Erro', `Não foi possível carregar os dados. Detalhes: ${error.message}`);
                 return null;
+            }
+        }
+
+        // Função para logar ações do usuário no backend
+        async function logUserAction(actionType, lottery, contest = null, details = null) {
+            if (!playerId || !playerName) {
+                console.warn("Jogador não identificado. Não é possível logar a ação.");
+                return;
+            }
+
+            const logData = {
+                data_hora: new Date().toISOString(),
+                identificacao_gerada: playerId,
+                nome_jogador: playerName,
+                tipo_acao: actionType, // 'termos_aceitos', 'apostou', 'consultou', 'popular_historico', 'analisou_estatisticas', 'analisou_ia', 'exportou_dados', 'limpou_historico'
+                loteria: lottery,
+                concurso: contest
+            };
+
+            if (details) { // Para números gerados ou outros detalhes
+                Object.assign(logData, details);
+            }
+            // Não precisa guardar os números da consulta
+
+            try {
+                await fetchData('logAction', {}, 'POST', logData);
+                console.log("Ação do usuário logada:", logData);
+            } catch (error) {
+                console.error("Erro ao logar ação do usuário:", error);
             }
         }
 
@@ -479,8 +792,6 @@ include('../header.php');
 
             if (useStats) {
                 const stats = lotteryStatistics[lotteryType];
-                // Verifica se há estatísticas disponíveis e se os números mais frequentes estão populados
-                // Para Dia de Sorte, a geração estatística de dezenas ainda é baseada nos números mais frequentes
                 if (!stats || !stats.mostFrequent || Object.keys(stats.mostFrequent).length === 0) {
                     showModal('Atenção', 'Para usar a geração estatística, por favor, popule o histórico e analise as estatísticas para esta loteria primeiro.');
                     generatedNumbersDiv.innerHTML = '<p class="text-red-500">Estatísticas não disponíveis para geração.</p>';
@@ -488,13 +799,11 @@ include('../header.php');
                 }
                 
                 for (let i = 0; i < quantity; i++) {
-                    // Passa apenas os números mais frequentes para a função, pois os menos frequentes não serão usados diretamente
                     const game = generateNumbersBasedOnStats(lotteryType, stats.mostFrequent);
                     allGeneratedGames.push(game);
                 }
 
             } else {
-                // Geração puramente aleatória (comportamento atual)
                 for (let i = 0; i < quantity; i++) {
                     const game = generatePureRandomNumbers(lotteryType);
                     allGeneratedGames.push(game);
@@ -552,7 +861,7 @@ include('../header.php');
                     if (mesDaSorteToDisplay) {
                         const monthLabel = document.createElement('p');
                         monthLabel.className = 'font-semibold text-gray-700 dark:text-gray-300 mt-2 w-full text-center';
-                        monthLabel.textContent = `Mês da Sorte: ${mesDaSorteToDisplay}`;
+                        monthLabel.innerHTML = `Mês da Sorte: <span class="highlight-rectangle">${mesDaSorteToDisplay}</span>`;
                         numbersContainer.appendChild(monthLabel);
                     }
                     
@@ -561,6 +870,9 @@ include('../header.php');
                 });
 
                 saveGeneratedBtn.style.display = 'inline-flex';
+                // Logar a ação de gerar números
+                logUserAction('apostou', lotteryType, null, { generatedNumbers: allGeneratedGames });
+
             } else {
                 generatedNumbersDiv.innerHTML = '<p class="text-red-500">Erro ao gerar números.</p>';
             }
@@ -652,7 +964,19 @@ include('../header.php');
                     }
                     html += '</div>';
                     html += '</div>';
-                } else if (data.dezenasSorteadas && data.dezenasSorteadas.length > 0) {
+                } else if (lotteryType === 'federal') { // Federal não tem bolinhas, apenas tabela
+                    html += '<div class="overflow-x-auto"><table class="table-auto w-full text-sm mt-4">';
+                    html += '<thead><tr><th>Prêmio</th><th>Bilhete</th><th>Valor do Prêmio</th></tr></thead><tbody>';
+                    if (data.listaResultadoFederal && data.listaResultadoFederal.length > 0) {
+                        data.listaResultadoFederal.forEach(premio => {
+                            html += `<tr><td>${premio.premio}</td><td><span class="federal-number-block">${premio.bilhete}</span></td><td>R$ ${premio.valorDoPremio.toLocaleString('pt-BR', { minimumFractionDigits: 2 })}</td></tr>`;
+                        });
+                    } else {
+                         html += `<tr><td colspan="3" class="text-center text-gray-500 dark:text-gray-400">Nenhum resultado de bilhete disponível.</td></tr>`;
+                    }
+                    html += '</tbody></table></div>';
+                }
+                else if (data.dezenasSorteadas && data.dezenasSorteadas.length > 0) {
                     html += '<div class="flex flex-wrap justify-center items-center gap-2 mb-4">';
                     data.dezenasSorteadas.forEach(dezena => {
                         html += `<span class="number-bubble">${dezena}</span>`;
@@ -671,19 +995,12 @@ include('../header.php');
 
 
                 // Exibição de informações específicas por loteria
-                if (lotteryType === 'federal' && data.listaResultadoFederal && data.listaResultadoFederal.length > 0) {
-                    html += '<div class="overflow-x-auto"><table class="table-auto w-full text-sm mt-4">';
-                    html += '<thead><tr><th>Prêmio</th><th>Bilhete</th><th>Valor do Prêmio</th></tr></thead><tbody>';
-                    data.listaResultadoFederal.forEach(premio => {
-                        html += `<tr><td>${premio.premio}</td><td>${premio.bilhete}</td><td>R$ ${premio.valorDoPremio.toLocaleString('pt-BR', { minimumFractionDigits: 2 })}</td></tr>`;
-                    });
-                    html += '</tbody></table></div>';
-                } else if (lotteryType === 'loteca' && data.listaResultadosLoteca && data.listaResultadosLoteca.length > 0) {
+                if (lotteryType === 'loteca' && data.listaResultadosLoteca && data.listaResultadosLoteca.length > 0) {
                     let lotecaHtml = '<h3 class="text-xl font-medium mt-4 mb-2">Resultados da Loteca</h3>';
                     lotecaHtml += '<div class="overflow-x-auto"><table class="table-auto w-full text-sm mt-4">';
                     lotecaHtml += '<thead><tr><th>Jogo</th><th>Time 1</th><th>Placar</th><th>Time 2</th><th>Resultado</th></tr></thead><tbody>';
                     data.listaResultadosLoteca.forEach(jogo => {
-                        html += `<tr>
+                        lotecaHtml += `<tr>
                             <td>${jogo.numeroJogo}</td>
                             <td>${jogo.nomeTimeUm}</td>
                             <td>${jogo.golsTimeUm} x ${jogo.golsTimeDois}</td>
@@ -691,12 +1008,12 @@ include('../header.php');
                             <td>${jogo.colunaUm === 1 ? '1' : (jogo.colunaDois === 1 ? '2' : 'X')}</td>
                         </tr>`;
                     });
-                    html += '</tbody></table></div>';
+                    lotecaHtml += '</tbody></table></div>';
                     html += lotecaHtml;
                 } else if (lotteryType === 'diadesorte' && data.nomeTimeCoracaoMesSorte) {
-                    html += `<p class="mt-2 text-lg font-semibold">Mês da Sorte: ${data.nomeTimeCoracaoMesSorte}</p>`;
+                    html += `<p class="mt-2 text-lg font-semibold">Mês da Sorte: <span class="highlight-rectangle">${data.nomeTimeCoracaoMesSorte}</span></p>`;
                 } else if (lotteryType === 'timemania' && data.nomeTimeCoracaoMesSorte) {
-                    html += `<p class="mt-2 text-lg font-semibold">Time do Coração: ${data.nomeTimeCoracaoMesSorte}</p>`;
+                    html += `<p class="mt-2 text-lg font-semibold">Time do Coração: <span class="highlight-rectangle">${data.nomeTimeCoracaoMesSorte}</span></p>`;
                 } else if (lotteryType === 'maismilionaria' && data.trevosSorteados && data.trevosSorteados.length > 0) {
                     html += `<p class="font-semibold text-gray-700 dark:text-gray-300 mt-2">Trevos Sorteados:</p>`;
                     html += '<div class="flex flex-wrap justify-center items-center gap-2">';
@@ -721,6 +1038,7 @@ include('../header.php');
                 }
 
                 lotteryResultsDiv.innerHTML = html;
+                logUserAction('consultou', lotteryType, data.numero); // Log de consulta
 
             } else {
                 currentDisplayedContestNumber = null;
@@ -785,6 +1103,8 @@ include('../header.php');
 
             if (data && data.success) {
                 showModal('Sucesso', data.message);
+                // Log de ação
+                logUserAction('populou_historico', lotteryType);
                 analyzeStatsBtn.click(); 
             } else {
                 showModal('Erro', data.message || 'Erro ao popular histórico.');
@@ -814,8 +1134,14 @@ include('../header.php');
                 // Lógica para exibir/ocultar as seções de números mais/menos sorteados
                 if (data.stats.mostFrequent && Object.keys(data.stats.mostFrequent).length > 0) {
                     let mostHtml = '';
-                    for (const num in data.stats.mostFrequent) {
+                    const mostFrequentKeys = Object.keys(data.stats.mostFrequent);
+                    for (let i = 0; i < mostFrequentKeys.length; i++) {
+                        const num = mostFrequentKeys[i];
                         mostHtml += `<span class="number-bubble">${num}</span>`;
+                        // Adiciona quebra de linha após o 6º número para exibir em duas fileiras de 6
+                        if (i === 5 && mostFrequentKeys.length > 6) {
+                            mostHtml += `<div class="w-full h-2"></div>`; // Força uma nova linha com um pequeno espaçamento
+                        }
                     }
                     mostFrequentNumbersDiv.innerHTML = mostHtml;
                     mostFrequentNumbersContainer.classList.remove('hidden'); // Mostra o container
@@ -867,15 +1193,8 @@ include('../header.php');
                     mostFrequentTrevosDiv.classList.remove('hidden');
                 }
 
-                // Exibe estatísticas de Trevos Menos Sorteados (+Milionária)
-                if (lotteryType === 'maismilionaria' && data.stats.leastFrequentTrevos && Object.keys(data.stats.leastFrequentTrevos).length > 0) {
-                    let leastTrevosHtml = '';
-                    for (const trevo in data.stats.leastFrequentTrevos) {
-                        leastTrevosHtml += `<span class="trevo-bubble">${trevo}</span>`;
-                    }
-                    leastTrevosContentDiv.innerHTML = leastTrevosHtml;
-                    leastFrequentTrevosDiv.classList.remove('hidden');
-                }
+                // Esconde Trevos Menos Sorteados para +Milionária (conforme solicitado)
+                leastFrequentTrevosDiv.classList.add('hidden'); 
 
 
                 if (data.stats.message) {
@@ -890,6 +1209,8 @@ include('../header.php');
                 leastFrequentNumbersDiv.innerHTML = '<p class="text-red-500">Erro ao analisar ou dados insuficientes.</p>';
                 statsMessageDiv.innerHTML = `<p class="text-red-500">${data ? (data.message || 'Não foi possível carregar as estatísticas.') : 'Não foi possível carregar as estatísticas.'}</p>`;
             }
+            // Log de ação
+            logUserAction('analisou_estatisticas', lotteryType);
         });
 
         const exportBtn = document.getElementById('exportBtn');
@@ -900,6 +1221,8 @@ include('../header.php');
             const dataType = exportDataType.value;
             const format = exportFormat.value;
             window.open(`${API_BASE_URL}?action=exportData&dataType=${dataType}&format=${format}`, '_blank');
+            // Log de ação
+            logUserAction('exportou_dados', dataType, null, { format: format });
         });
 
         const bettingHistoryDiv = document.getElementById('bettingHistory');
@@ -913,25 +1236,23 @@ include('../header.php');
                 let html = '<table class="table-auto text-sm"><thead><tr><th>Loteria</th><th>Números Gerados</th><th>Data</th></tr></thead><tbody>';
                 data.history.forEach(item => {
                     let numbersDisplay = '';
-                    // Verifica se o item.generatedNumbers é um array de arrays (múltiplos jogos) ou um único jogo (array de números ou objeto)
                     const isMultiGame = Array.isArray(item.generatedNumbers) && Array.isArray(item.generatedNumbers[0]);
 
                     if (isMultiGame) {
                         numbersDisplay = item.generatedNumbers.map(game => {
-                            if (game.dezenas && game.trevos) { // +Milionária
+                            if (lotteryConfigs[item.lotteryType] && lotteryConfigs[item.lotteryType].trevos_count) {
                                 return `Dezenas: [${game.dezenas.join(', ')}] Trevos: [${game.trevos.join(', ')}]`;
-                            } else if (game.dezenas && game.mesDaSorte) { // Dia de Sorte
+                            } else if (lotteryConfigs[item.lotteryType] && lotteryConfigs[item.lotteryType].hasMonth) {
                                 return `Dezenas: [${game.dezenas.join(', ')}] Mês da Sorte: ${game.mesDaSorte}`;
                             }
-                            return `[${game.join(', ')}]`; // Outras loterias
+                            return `[${game.join(', ')}]`;
                         }).join('<br>');
                     } else {
-                        // Caso seja um único jogo, que pode ser um array ou um objeto (Dia de Sorte, +Milionária)
-                        if (item.generatedNumbers.dezenas && item.generatedNumbers.trevos) { // +Milionária
+                        if (item.generatedNumbers.dezenas && item.generatedNumbers.trevos) {
                             numbersDisplay = `Dezenas: [${item.generatedNumbers.dezenas.join(', ')}] Trevos: [${item.generatedNumbers.trevos.join(', ')}]`;
-                        } else if (item.generatedNumbers.dezenas && item.generatedNumbers.mesDaSorte) { // Dia de Sorte
+                        } else if (item.generatedNumbers.dezenas && item.generatedNumbers.mesDaSorte) {
                             numbersDisplay = `Dezenas: [${item.generatedNumbers.dezenas.join(', ')}] Mês da Sorte: ${item.generatedNumbers.mesDaSorte}`;
-                        } else if (Array.isArray(item.generatedNumbers)) { // Outras loterias (array simples)
+                        } else if (Array.isArray(item.generatedNumbers)) {
                             numbersDisplay = `[${item.generatedNumbers.join(', ')}]`;
                         } else {
                             numbersDisplay = 'Formato de números desconhecido.';
@@ -957,13 +1278,65 @@ include('../header.php');
                 if (data && data.success) {
                     showModal('Sucesso', 'Histórico de apostas limpo!');
                     loadBettingHistory();
+                    logUserAction('limpou_historico', 'all'); // Log de ação
                 } else {
                     showModal('Erro', `Falha ao limpar histórico: ${data.message || 'Erro desconhecido'}`);
                 }
             });
         });
 
-        document.addEventListener('DOMContentLoaded', loadBettingHistory);
+        // Lógica de inicialização do modal de termos
+        document.addEventListener('DOMContentLoaded', () => {
+            // Tenta carregar player ID e nome do localStorage
+            playerId = localStorage.getItem('playerId');
+            playerName = localStorage.getItem('playerName');
+
+            if (playerId && playerName) {
+                // Se já identificado, esconde o modal e exibe o conteúdo principal
+                document.getElementById('termsModal').style.display = 'none';
+                document.body.classList.add('terms-accepted');
+                loadBettingHistory(); // Carrega o histórico após aceitar os termos
+            } else {
+                // Caso contrário, exibe o modal de termos
+                document.getElementById('termsModal').style.display = 'flex';
+                document.body.classList.remove('terms-accepted');
+                document.body.classList.add('modal-open');
+            }
+
+            // Event listener para o botão de aceitar termos
+            const acceptTermsBtn = document.getElementById('acceptTermsBtn');
+            acceptTermsBtn.addEventListener('click', () => {
+                const nameInput = document.getElementById('playerName');
+                const acceptCheckbox = document.getElementById('acceptTerms');
+
+                if (nameInput.value.trim() === '') {
+                    showModal('Atenção', 'Por favor, digite seu nome ou apelido.');
+                    return;
+                }
+                if (!acceptCheckbox.checked) {
+                    showModal('Atenção', 'Você deve aceitar os termos de responsabilidade para continuar.');
+                    return;
+                }
+
+                // Gerar identificação única
+                const now = new Date();
+                const datePart = `${now.getFullYear()}${(now.getMonth() + 1).toString().padStart(2, '0')}${now.getDate().toString().padStart(2, '0')}`;
+                const randomPart = Math.floor(10000 + Math.random() * 90000); // 5 dígitos aleatórios
+                playerId = `jog${datePart}-${randomPart}`;
+                playerName = nameInput.value.trim();
+
+                // Salvar no localStorage
+                localStorage.setItem('playerId', playerId);
+                localStorage.setItem('playerName', playerName);
+
+                // Esconder modal, exibir conteúdo principal e logar
+                document.getElementById('termsModal').style.display = 'none';
+                document.body.classList.remove('modal-open');
+                document.body.classList.add('terms-accepted');
+                loadBettingHistory(); // Carrega o histórico após aceitar os termos
+                logUserAction('termos_aceitos', null, null, { playerId: playerId, playerName: playerName });
+            });
+        });
 
 
         const runAiAnalysisBtn = document.getElementById('runAiAnalysisBtn');
@@ -977,19 +1350,20 @@ include('../header.php');
 
             if (data && data.analysis) {
                 let html = '<h3 class="text-xl font-medium mb-2">Resultados da Análise de IA:</h3>';
-                if (data.analysis.aprioriRules && data.analysis.aprioriRules.length > 0) {
-                    html += '<p class="font-semibold">Regras de Associação (Apriori):</p><ul class="list-disc list-inside">';
-                    data.analysis.aprioriRules.forEach(rule => {
-                        html += `<li>${rule}</li>`;
+                if (data.analysis.cluster_analysis && data.analysis.cluster_analysis.length > 0) {
+                    html += '<p class="font-semibold">Agrupamento de Sorteios (KMeans):</p><ul class="list-disc list-inside">';
+                    data.analysis.cluster_analysis.forEach(clusterInfo => {
+                        html += `<li>${clusterInfo}</li>`;
                     });
                     html += '</ul>';
                 } else {
-                    html += '<p class="text-gray-500 dark:text-gray-400">Nenhuma regra de associação encontrada ou dados insuficientes.</p>';
+                    html += '<p class="text-gray-500 dark:text-gray-400">Nenhum agrupamento encontrado ou dados insuficientes.</p>';
                 }
                 html += `<p class="mt-4 text-sm text-gray-600 dark:text-gray-300">${data.analysis.message || ''}</p>`;
                 aiAnalysisResultsDiv.innerHTML = html;
+                logUserAction('analisou_ia', lotteryType); // Log de ação
             } else {
-                showModal('Erro', data.message || 'Erro ao executar a análise de IA ou dados insuficientes.');
+                showModal('Erro', data ? (data.message || 'Erro ao executar a análise de IA ou dados insuficientes.') : 'Erro ao executar a análise de IA ou dados insuficientes.');
                 aiAnalysisResultsDiv.innerHTML = '<p class="text-red-500">Erro ao executar a análise de IA ou dados insuficientes.</p>';
             }
         });
@@ -997,8 +1371,3 @@ include('../header.php');
     </script>
 </body>
 </html>
-<?php
-
-include('../footer.php');
-
-?>

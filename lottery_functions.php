@@ -1,6 +1,7 @@
 <?php
 
 // lottery_functions.php
+error_log("DEBUG_FULL: lottery_functions.php - Início do script.");
 
 // Configurações das loterias
 $lotteries = [
@@ -37,4 +38,5 @@ function generateNumbers(int $count, int $min, int $max): array
     return $numbers;
 }
 
+error_log("DEBUG_FULL: lottery_functions.php - Fim do script.");
 ?>

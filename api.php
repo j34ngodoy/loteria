@@ -12,59 +12,86 @@ ini_set('log_errors', 1);                 // Habilita o log de erros
 ini_set('error_log', __DIR__ . '/php_error.log'); // Define o arquivo de log de erros
 // ---------------------------------------------------------------------------------
 
+error_log("DEBUG_FULL: api.php - Início do script.");
+
 header('Content-Type: application/json');
 
+// Inclui o autoloader do Composer o mais cedo possível
+$composerAutoloadPath = __DIR__ . '/vendor/autoload.php'; // Usar __DIR__ para caminho absoluto
+
+error_log("DEBUG_FULL: api.php - Verificando se autoload.php existe em " . $composerAutoloadPath);
+if (!file_exists($composerAutoloadPath)) {
+    error_log("DEBUG_FULL: Erro Fatal: Composer autoload.php NÃO encontrado em " . $composerAutoloadPath . ". Por favor, execute 'composer install'.");
+    echo json_encode(['error' => true, 'message' => 'Erro interno do servidor: Autoloader do Composer ausente.']);
+    exit;
+}
+require_once $composerAutoloadPath;
+error_log("DEBUG_FULL: api.php - autoload.php carregado com sucesso.");
+
+// Classes do Rubix ML - MOVIDAS PARA O TOPO PARA GARANTIR CARREGAMENTO
+use Rubix\ML\Datasets\Unlabeled;
+use Rubix\ML\Clusterers\KMeans;
+use Rubix\ML\Transformers\NumericStringConverter;
+use Rubix\ML\Transformers\MinMaxNormalizer;
+use Rubix\ML\Kernels\Distance\Euclidean; // Necessário para KMeans
+use Rubix\ML\Clusterers\Seeders\PlusPlus; // Necessário para KMeans
+
+// --- DIAGNÓSTICO RUBIX ML ---
+error_log("DEBUG_FULL: api.php - Iniciando diagnóstico Rubix ML.");
+if (class_exists(KMeans::class)) {
+    error_log("DEBUG_FULL: Classe Rubix\\ML\\Clusterers\\KMeans ENCONTRADA.");
+    try {
+        $testKMeans = new KMeans(2);
+        error_log("DEBUG_FULL: Instância de Rubix\\ML\\Clusterers\\KMeans CRIADA COM SUCESSO.");
+    } catch (Throwable $e) {
+        error_log("DEBUG_FULL: ERRO ao instanciar Rubix\\ML\\Clusterers\\KMeans: " . $e->getMessage() . " em " . $e->getFile() . " na linha " . $e->getLine());
+    }
+} else {
+    error_log("DEBUG_FULL: Classe Rubix\\ML\\Clusterers\\KMeans NÃO ENCONTRADA. Verifique a instalação do Rubix ML e suas dependências.");
+}
+error_log("DEBUG_FULL: api.php - Fim do diagnóstico Rubix ML.");
+// --- FIM DO DIAGNÓSTICO RUBIX ML ---
+
+
 // --- Inclusão de arquivos de funções e manipuladores essenciais ---
-// Verifica e inclui lottery_functions.php
+error_log("DEBUG_FULL: api.php - Tentando incluir lottery_functions.php.");
 if (!file_exists('lottery_functions.php')) {
-    error_log("Erro Fatal: 'lottery_functions.php' não encontrado.");
+    error_log("DEBUG_FULL: Erro Fatal: 'lottery_functions.php' não encontrado.");
     echo json_encode(['error' => true, 'message' => 'Erro interno do servidor: Arquivo de funções de loteria ausente.']);
     exit;
 }
 require_once 'lottery_functions.php';
+error_log("DEBUG_FULL: api.php - lottery_functions.php carregado com sucesso.");
 
-// Verifica e inclui stats_handler.php
+error_log("DEBUG_FULL: api.php - Tentando incluir stats_handler.php.");
 if (!file_exists('stats_handler.php')) {
-    error_log("Erro Fatal: 'stats_handler.php' não encontrado.");
+    error_log("DEBUG_FULL: Erro Fatal: 'stats_handler.php' não encontrado.");
     echo json_encode(['error' => true, 'message' => 'Erro interno do servidor: Arquivo de manipulador de estatísticas ausente.']);
     exit;
 }
 require_once 'stats_handler.php';
 
-// Inclui o autoloader do Composer para PHP-ML
-// Certifique-se de que o Composer e a biblioteca PHP-ML estão instalados
-// Execute 'composer install' e 'composer require php-ai/php-ml' na raiz do seu projeto
-$composerAutoloadPath = 'vendor/autoload.php';
-// Removido o if/else file_exists() conforme sua descoberta, pois estava causando erro 500
-require_once $composerAutoloadPath;
-use Phpml\Association\Apriori;
-use Phpml\CrossValidation\StratifiedRandomSplit;
-use Phpml\Dataset\ArrayDataset;
-use Phpml\Metric\Accuracy;
-use Phpml\ModelManager;
-use Phpml\Clustering\KMeans; // Adicionado para compatibilidade, se necessário
-
 
 // Funções auxiliares (anteriormente em outros arquivos ou integradas)
-// Esta função é uma versão simplificada para o propósito de exportação/histórico.
-// Se você tinha uma versão mais complexa em `api_handler.php` ou `export_handler.php`,
-// por favor, me avise para que possamos integrá-la.
 function loadBetHistory(string $filePath): array
 {
     if (file_exists($filePath)) {
         $content = file_get_contents($filePath);
-        // Retorna um array vazio se o JSON estiver inválido
         return json_decode($content, true) ?: [];
     }
     return [];
 }
 
-// Função para exportação (anteriormente em export_handler.php)
+function saveBetHistory(string $filePath, array $history): void
+{
+    if (!is_dir(dirname($filePath))) {
+        mkdir(dirname($filePath), 0777, true);
+    }
+    file_put_contents($filePath, json_encode($history, JSON_PRETTY_PRINT));
+}
+
 function exportData(string $format, array $data, string $filenamePrefix): void
 {
-    // Removido ob_end_clean() daqui, pois o ob_start() foi removido do início do arquivo.
-    // Se o buffer de saída estiver ativo por outro motivo, pode causar problemas.
-
     $mimeType = '';
     $content = '';
     $filename = $filenamePrefix;
@@ -79,7 +106,6 @@ function exportData(string $format, array $data, string $filenamePrefix): void
             $mimeType = 'text/csv';
             $content = '';
             if (!empty($data)) {
-                // Assume que o primeiro item tem todas as chaves para o cabeçalho
                 $headers = array_keys($data[0]);
                 $content .= implode(',', array_map(function($h) { return '"' . str_replace('"', '""', $h) . '"'; }, $headers)) . "\n";
                 foreach ($data as $row) {
@@ -97,11 +123,9 @@ function exportData(string $format, array $data, string $filenamePrefix): void
             $filename .= '.csv';
             break;
         case 'sql':
-            $mimeType = 'text/plain'; // Não há um MIME type específico para SQL de exportação simples
+            $mimeType = 'text/plain';
             $content = "-- SQL Export for " . $filenamePrefix . "\n\n";
-            // Exemplo muito básico de SQL. Para uso real, precisaria de tabelas e estrutura.
             foreach ($data as $item) {
-                // Simplificado: apenas JSON string no campo 'data'
                 $content .= "INSERT INTO " . $filenamePrefix . "_data (data) VALUES ('" . addslashes(json_encode($item)) . "');\n";
             }
             $filename .= '.sql';
@@ -130,19 +154,36 @@ $betHistoryFilePath = __DIR__ . '/data/betting_history.json';
 
 $action = $_GET['action'] ?? '';
 
+error_log("DEBUG_FULL: api.php - Ação recebida: " . $action);
+
 try {
     switch ($action) {
-        case 'getResults':
+        case 'generateNumbers':
+            error_log("DEBUG_FULL: api.php - Executando case 'generateNumbers'.");
             $lotteryType = $_GET['lottery'] ?? '';
-            $type = $_GET['type'] ?? 'current'; // 'current', 'previous', 'specific'
+            $quantity = isset($_GET['quantity']) ? (int)$_GET['quantity'] : 1;
+
+            if (isset($lotteries[$lotteryType])) {
+                $config = $lotteries[$lotteryType];
+                $allGeneratedNumbers = [];
+                for ($i = 0; $i < $quantity; $i++) {
+                    $allGeneratedNumbers[] = generateNumbers($config['count'], $config['min'], $config['max']);
+                }
+                echo json_encode(['success' => true, 'numbers' => $allGeneratedNumbers]);
+            } else {
+                echo json_encode(['success' => false, 'message' => 'Tipo de loteria inválido.']);
+            }
+            break;
+
+        case 'getResults':
+            error_log("DEBUG_FULL: api.php - Executando case 'getResults'.");
+            $lotteryType = $_GET['lottery'] ?? '';
+            $type = $_GET['type'] ?? 'current';
             $contestNumber = $_GET['contestNumber'] ?? null;
 
-            // URL base da API da Caixa Econômica Federal
-            // Usando a URL que você indicou que estava funcionando anteriormente
-            $baseUrl = 'https://servicebus2.caixa.gov.br/portaldeloterias/api'; // Revertido para a URL antiga
+            $baseUrl = 'https://servicebus2.caixa.gov.br/portaldeloterias/api';
             $fullUrl = '';
 
-            // Mapeamento de tipos de loteria para os nomes da loteria na API antiga
             $lotteryApiMap = [
                 'megasena' => 'megasena',
                 'lotofacil' => 'lotofacil',
@@ -154,12 +195,12 @@ try {
                 'loteca' => 'loteca',
                 'diadesorte' => 'diadesorte',
                 'supersete' => 'supersete',
-                'maismilionaria' => 'maismilionaria' // +Milionária
+                'maismilionaria' => 'maismilionaria'
             ];
 
             if (!isset($lotteryApiMap[$lotteryType])) {
                 echo json_encode(['error' => true, 'message' => 'Tipo de loteria inválido.']);
-                exit; // Removido ob_end_clean()
+                exit;
             }
 
             $apiPath = $lotteryApiMap[$lotteryType];
@@ -167,21 +208,18 @@ try {
             if ($type === 'current') {
                 $fullUrl = "{$baseUrl}/{$apiPath}";
             } elseif ($type === 'specific' && $contestNumber) {
-                // Para a API antiga, o formato para concurso específico pode ser diferente.
-                // Mantendo o formato atual, mas pode precisar de ajuste se a API antiga não suportar.
                 $fullUrl = "{$baseUrl}/{$apiPath}/{$contestNumber}";
             } else {
                 echo json_encode(['error' => true, 'message' => 'Parâmetros de consulta inválidos.']);
-                exit; // Removido ob_end_clean()
+                exit;
             }
 
-            // Log da URL que será solicitada à API da Caixa
-            error_log("getResults: Solicitando à API da Caixa: " . $fullUrl);
+            error_log("DEBUG_FULL: getResults: Solicitando à API da Caixa: " . $fullUrl);
 
             $ch = curl_init();
             curl_setopt($ch, CURLOPT_URL, $fullUrl);
             curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false); // Apenas para ambiente de desenvolvimento, remover em produção!
+            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
             curl_setopt($ch, CURLOPT_HTTPHEADER, [
                 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
             ]);
@@ -191,10 +229,10 @@ try {
 
             if (curl_errno($ch)) {
                 $error_msg = curl_error($ch);
-                error_log("cURL Error: " . $error_msg);
+                error_log("DEBUG_FULL: cURL Error: " . $error_msg);
                 echo json_encode(['error' => true, 'message' => 'Erro ao conectar à API da Caixa: ' . $error_msg]);
                 curl_close($ch);
-                exit; // Removido ob_end_clean()
+                exit;
             }
 
             curl_close($ch);
@@ -202,38 +240,34 @@ try {
             if ($httpCode === 200) {
                 $data = json_decode($response, true);
                 if (json_last_error() !== JSON_ERROR_NONE) {
-                    error_log("JSON Decode Error: " . json_last_error_msg() . " Response: " . $response);
+                    error_log("DEBUG_FULL: JSON Decode Error: " . json_last_error_msg() . " Response: " . $response);
                     echo json_encode(['error' => true, 'message' => 'Erro ao decodificar a resposta da API.']);
-                    exit; // Removido ob_end_clean()
+                    exit;
                 }
                 echo json_encode($data);
             } else {
-                error_log("API Response Error: HTTP " . $httpCode . " Response: " . $response);
+                error_log("DEBUG_FULL: API Response Error: HTTP " . $httpCode . " Response: " . $response);
                 echo json_encode(['error' => true, 'message' => 'Erro ao obter resultados da API da Caixa. Código HTTP: ' . $httpCode]);
             }
-            // Removido ob_end_clean()
             break;
 
         case 'populateHistoricalData':
+            error_log("DEBUG_FULL: api.php - Executando case 'populateHistoricalData'.");
             $lotteryType = $_GET['lottery'] ?? '';
             $limit = intval($_GET['limit'] ?? 50);
 
             $historicalData = loadHistoricalResults($lotteryType);
             $currentContestNumber = null;
 
-            // Obter o último concurso conhecido para iniciar a busca
             if (!empty($historicalData)) {
-                // Ordena os dados pelo número do concurso em ordem decrescente para pegar o mais recente
                 usort($historicalData, function($a, $b) {
                     return ($b['numero'] ?? 0) <=> ($a['numero'] ?? 0);
                 });
                 $currentContestNumber = $historicalData[0]['numero'] ?? null;
-                error_log("populateHistoricalData: Último concurso conhecido para " . $lotteryType . ": " . $currentContestNumber);
+                error_log("DEBUG_FULL: populateHistoricalData: Último concurso conhecido para " . $lotteryType . ": " . $currentContestNumber);
             }
 
-            // Se não há histórico ou queremos popular mais, busca a partir do concurso atual da API
             if ($currentContestNumber === null) {
-                // Usando cURL para buscar o concurso atual, mais robusto que file_get_contents
                 $currentResultUrl = "{$_SERVER['SCRIPT_URI']}?action=getResults&lottery={$lotteryType}&type=current";
                 $chCurrent = curl_init();
                 curl_setopt($chCurrent, CURLOPT_URL, $currentResultUrl);
@@ -245,26 +279,24 @@ try {
 
                 if ($currentResult && isset($currentResult['numero'])) {
                     $currentContestNumber = $currentResult['numero'];
-                    error_log("populateHistoricalData: Concurso atual da API para " . $lotteryType . ": " . $currentContestNumber);
+                    error_log("DEBUG_FULL: populateHistoricalData: Concurso atual da API para " . $lotteryType . ": " . $currentContestNumber);
                 }
             }
 
             if ($currentContestNumber === null) {
                 echo json_encode(['success' => false, 'message' => 'Não foi possível determinar o concurso inicial para popular o histórico.']);
-                exit; // Removido ob_end_clean()
+                exit;
             }
 
             $newlyFetchedCount = 0;
-            $allResults = $historicalData; // Começa com os dados existentes
+            $allResults = $historicalData;
 
-            // Loop para buscar concursos anteriores até o limite
             for ($i = 0; $i < $limit; $i++) {
                 $contestToFetch = $currentContestNumber - $i;
                 if ($contestToFetch <= 0) {
-                    break; // Não há mais concursos válidos para buscar
+                    break;
                 }
 
-                // Verifica se o concurso já existe no histórico
                 $existsInHistory = false;
                 foreach ($allResults as $existingResult) {
                     if (($existingResult['numero'] ?? null) == $contestToFetch) {
@@ -274,12 +306,11 @@ try {
                 }
 
                 if ($existsInHistory) {
-                    error_log("populateHistoricalData: Concurso " . $contestToFetch . " já existe no histórico para " . $lotteryType . ". Pulando.");
-                    continue; // Pula se já existe
+                    error_log("DEBUG_FULL: populateHistoricalData: Concurso " . $contestToFetch . " já existe no histórico para " . $lotteryType . ". Pulando.");
+                    continue;
                 }
 
-                error_log("populateHistoricalData: Buscando concurso " . $contestToFetch . " para " . $lotteryType);
-                // Usando cURL para buscar concursos específicos, mais robusto que file_get_contents
+                error_log("DEBUG_FULL: populateHistoricalData: Buscando concurso " . $contestToFetch . " para " . $lotteryType);
                 $specificResultUrl = "{$_SERVER['SCRIPT_URI']}?action=getResults&lottery={$lotteryType}&type=specific&contestNumber={$contestToFetch}";
                 $chSpecific = curl_init();
                 curl_setopt($chSpecific, CURLOPT_URL, $specificResultUrl);
@@ -293,17 +324,15 @@ try {
                 if ($result && isset($result['numero'])) {
                     $allResults[] = $result;
                     $newlyFetchedCount++;
-                    error_log("populateHistoricalData: Adicionado concurso " . $result['numero'] . " ao histórico de " . $lotteryType);
+                    error_log("DEBUG_FULL: populateHistoricalData: Adicionado concurso " . $result['numero'] . " ao histórico de " . $lotteryType);
                 } else {
-                    error_log("populateHistoricalData: Falha ao buscar concurso " . $contestToFetch . " para " . $lotteryType . ". Resposta: " . json_encode($result));
+                    error_log("DEBUG_FULL: populateHistoricalData: Falha ao buscar concurso " . $contestToFetch . " para " . $lotteryType . ". Resposta: " . json_encode($result));
                 }
-                // Pequeno delay para evitar sobrecarregar a API
-                usleep(100000); // 100ms
+                usleep(100000);
             }
 
-            // Remove duplicatas e salva
             $uniqueResults = [];
-            $seenContests = []; // Usando array associativo PHP para rastrear números de concurso vistos
+            $seenContests = [];
             foreach ($allResults as $res) {
                 $contestNum = $res['numero'] ?? null;
                 if ($contestNum !== null && !isset($seenContests[$contestNum])) {
@@ -314,10 +343,10 @@ try {
 
             saveHistoricalResults($lotteryType, $uniqueResults);
             echo json_encode(['success' => true, 'message' => "Histórico populado com sucesso. Foram adicionados {$newlyFetchedCount} novos concursos."]);
-            // Removido ob_end_clean()
             break;
 
         case 'getStatistics':
+            error_log("DEBUG_FULL: api.php - Executando case 'getStatistics'.");
             $lotteryType = $_GET['lottery'] ?? '';
             if (!empty($lotteryType)) {
                 $stats = analyzeLotteryStatistics($lotteryType);
@@ -325,20 +354,19 @@ try {
             } else {
                 echo json_encode(['success' => false, 'message' => 'Tipo de loteria não especificado para estatísticas.']);
             }
-            // Removido ob_end_clean()
             break;
 
         case 'saveBetHistory':
+            error_log("DEBUG_FULL: api.php - Executando case 'saveBetHistory'.");
             $input = json_decode(file_get_contents('php://input'), true);
             $lotteryType = $input['lotteryType'] ?? '';
             $numbers = $input['numbers'] ?? [];
 
             if (empty($lotteryType) || empty($numbers)) {
                 echo json_encode(['success' => false, 'message' => 'Dados inválidos para salvar o histórico.']);
-                exit; // Removido ob_end_clean()
+                exit;
             }
 
-            // Usando a função loadBetHistory definida acima
             $history = loadBetHistory($betHistoryFilePath);
 
             $history[] = [
@@ -349,30 +377,27 @@ try {
 
             file_put_contents($betHistoryFilePath, json_encode($history, JSON_PRETTY_PRINT));
             echo json_encode(['success' => true, 'message' => 'Aposta salva com sucesso!']);
-            // Removido ob_end_clean()
             break;
 
         case 'getBetHistory':
-            // Usando a função loadBetHistory definida acima
+            error_log("DEBUG_FULL: api.php - Executando case 'getBetHistory'.");
             $history = loadBetHistory($betHistoryFilePath);
             echo json_encode(['success' => true, 'history' => $history]);
-            // Removido ob_end_clean()
             break;
 
         case 'clearBetHistory':
+            error_log("DEBUG_FULL: api.php - Executando case 'clearBetHistory'.");
             if (file_exists($betHistoryFilePath)) {
-                unlink($betHistoryFilePath); // Deleta o arquivo
-                echo json_encode(['success' => true, 'message' => 'Histórico de apostas limpo com sucesso!']);
-            } else {
-                echo json_encode(['success' => false, 'message' => 'Nenhum histórico para limpar.']);
+                unlink($betHistoryFilePath);
             }
-            // Removido ob_end_clean()
+            echo json_encode(['success' => true, 'message' => 'Histórico de apostas limpo com sucesso!']);
             break;
 
         case 'exportData':
+            error_log("DEBUG_FULL: api.php - Executando case 'exportData'.");
             $dataType = $_GET['dataType'] ?? '';
             $format = $_GET['format'] ?? 'json';
-            $lotteryType = $_GET['lottery'] ?? ''; // Pode ser necessário para 'results' ou 'stats'
+            $lotteryType = $_GET['lottery'] ?? '';
 
             $dataToExport = [];
             $filenamePrefix = "export_" . $dataType;
@@ -386,7 +411,7 @@ try {
                     if (empty($lotteryType)) {
                          http_response_code(400);
                          echo json_encode(['success' => false, 'message' => 'Tipo de loteria necessário para exportar resultados.']);
-                         exit; // Removido ob_end_clean()
+                         exit;
                     }
                     $dataToExport = loadHistoricalResults($lotteryType);
                     $filenamePrefix .= "_results_" . $lotteryType;
@@ -395,7 +420,7 @@ try {
                     if (empty($lotteryType)) {
                          http_response_code(400);
                          echo json_encode(['success' => false, 'message' => 'Tipo de loteria necessário para exportar estatísticas.']);
-                         exit; // Removido ob_end_clean()
+                         exit;
                     }
                     $dataToExport = analyzeLotteryStatistics($lotteryType);
                     $filenamePrefix .= "_stats_" . $lotteryType;
@@ -403,135 +428,187 @@ try {
                 default:
                     http_response_code(400);
                     echo json_encode(['success' => false, 'message' => 'Tipo de dados para exportação inválido.']);
-                    exit; // Removido ob_end_clean()
+                    exit;
             }
 
             exportData($format, $dataToExport, $filenamePrefix);
-            // ob_end_clean() já é chamado dentro de exportData, então não precisa aqui
             break;
 
         case 'getAIAnalysis':
+            error_log("DEBUG_FULL: api.php - Executando case 'getAIAnalysis'.");
             $lotteryType = $_GET['lottery'] ?? '';
-            $analysisResults = ['aprioriRules' => [], 'message' => ''];
+            $analysisResults = ['cluster_analysis' => [], 'message' => ''];
 
             if (!empty($lotteryType)) {
-                error_log("getAIAnalysis: Iniciando análise para loteria: " . $lotteryType);
+                error_log("DEBUG_FULL: getAIAnalysis: Iniciando análise para loteria: " . $lotteryType);
 
-                // Verifica se a classe Apriori existe (indicando que PHP-ML foi carregado)
-                if (!class_exists(Apriori::class)) {
-                    $analysisResults['message'] = 'A biblioteca PHP-ML (Apriori) não está instalada ou não foi carregada. Por favor, instale-a via Composer (composer require php-ai/php-ml) e garanta que o autoload.php esteja incluído.';
-                    error_log("getAIAnalysis: Erro - " . $analysisResults['message']);
+                // Verifica se a classe KMeans do Rubix ML existe
+                if (!class_exists(KMeans::class)) {
+                    $analysisResults['message'] = 'A biblioteca Rubix ML (KMeans) não está instalada ou não foi carregada. Por favor, instale-a via Composer (composer require rubix/ml rubix/tensor) e garanta que o autoload.php esteja incluído.';
+                    error_log("DEBUG_FULL: getAIAnalysis: Erro - " . $analysisResults['message']);
                     echo json_encode(['success' => false, 'analysis' => $analysisResults, 'message' => $analysisResults['message']]);
-                    exit; // Removido ob_end_clean()
+                    exit;
                 }
 
                 $historicalData = loadHistoricalResults($lotteryType);
-                error_log("getAIAnalysis: Dados históricos carregados para " . $lotteryType . ". Total de concursos: " . count($historicalData));
-
+                error_log("DEBUG_FULL: getAIAnalysis: Dados históricos carregados para " . $lotteryType . ". Total de concursos: " . count($historicalData));
 
                 if (empty($historicalData)) {
                     $analysisResults['message'] = 'Nenhum dado histórico para análise de IA. Por favor, popule o histórico primeiro.';
-                    error_log("getAIAnalysis: Erro - " . $analysisResults['message']);
+                    error_log("DEBUG_FULL: getAIAnalysis: Erro - " . $analysisResults['message']);
                     echo json_encode(['success' => false, 'analysis' => $analysisResults, 'message' => $analysisResults['message']]);
-                    exit; // Removido ob_end_clean()
+                    exit;
                 }
 
                 $samples = [];
-                $targets = []; // Apriori não usa targets diretamente, mas train espera um segundo argumento
+                $minVal = PHP_INT_MAX;
+                $maxVal = PHP_INT_MIN;
 
-                // Coleta de dezenas para Apriori
+                // Coleta de dezenas e determinação de min/max para normalização
                 foreach ($historicalData as $contest) {
                     $dezenas = [];
+                    // Lógica para extrair dezenas (mantida do stats_handler para consistência)
                     if (isset($contest['listaDezenas']) && is_array($contest['listaDezenas'])) {
                         if (!empty($contest['listaDezenas']) && is_array($contest['listaDezenas'][0])) {
-                            // Caso Duplasena (array de arrays, 2 sorteios)
                             foreach ($contest['listaDezenas'] as $sorteio) {
                                 if (is_array($sorteio)) {
                                     $dezenas = array_merge($dezenas, $sorteio);
                                 }
                             }
                         } else {
-                            // Outras loterias (listaDezenas simples)
                             $dezenas = $contest['listaDezenas'];
                         }
                     } else if (isset($contest['dezenasSorteadas']) && is_array($contest['dezenasSorteadas'])) {
-                        // Algumas APIs podem usar 'dezenasSorteadas'
                         $dezenas = $contest['dezenasSorteadas'];
                     }
 
                     // Para Loteca e Federal, a análise de dezenas não se aplica
                     if ($lotteryType === 'loteca' || $lotteryType === 'federal') {
                         $analysisResults['message'] = 'A análise de IA baseada em dezenas não se aplica diretamente a esta loteria (Loteca/Federal).';
-                        error_log("getAIAnalysis: Erro - " . $analysisResults['message']);
+                        error_log("DEBUG_FULL: getAIAnalysis: Erro - " . $analysisResults['message']);
                         echo json_encode(['success' => false, 'analysis' => $analysisResults, 'message' => $analysisResults['message']]);
-                        exit; // Removido ob_end_clean()
+                        exit;
                     }
 
                     // Converte dezenas para inteiros e remove zeros à esquerda
                     $processedDezenas = array_map(function($d) { return (int)ltrim((string)$d, '0'); }, $dezenas);
-                    $processedDezenas = array_filter($processedDezenas); // Remove valores vazios ou 0 se ltrim resultar em vazio
+                    $processedDezenas = array_filter($processedDezenas); 
 
                     if (!empty($processedDezenas)) {
                         $samples[] = $processedDezenas;
-                        $targets[] = ''; // Adiciona um target vazio para cada sample
+                        // Atualiza min/max para normalização
+                        foreach ($processedDezenas as $num) {
+                            if ($num < $minVal) $minVal = $num;
+                            if ($num > $maxVal) $maxVal = $num;
+                        }
                     }
                 }
-                error_log("getAIAnalysis: Total de samples para IA: " . count($samples));
+                error_log("DEBUG_FULL: getAIAnalysis: Total de samples para IA: " . count($samples));
 
                 if (empty($samples)) {
                     $analysisResults['message'] = 'Nenhum dado de dezenas válido encontrado no histórico para análise de IA.';
-                    error_log("getAIAnalysis: Erro - " . $analysisResults['message']);
+                    error_log("DEBUG_FULL: getAIAnalysis: Erro - " . $analysisResults['message']);
                     echo json_encode(['success' => false, 'analysis' => $analysisResults, 'message' => $analysisResults['message']]);
-                    exit; // Removido ob_end_clean()
+                    exit;
                 }
 
                 try {
-                    // Cria um dataset
-                    $dataset = new ArrayDataset($samples, $targets);
-                    
-                    // Para Apriori, geralmente treinamos com todos os dados se o objetivo é encontrar todas as regras
-                    $apriori = new Apriori($support = 0.05, $confidence = 0.5); // Ajuste os valores de suporte e confiança conforme necessário
-
-                    // CORREÇÃO: Passando samples e targets para train()
-                    $apriori->train($dataset->getSamples(), $dataset->getTargets());
-
-                    $rules = $apriori->getRules();
-                    $formattedRules = [];
-                    foreach ($rules as $rule) {
-                        $antecedent = implode(', ', $rule['antecedent']);
-                        $consequent = implode(', ', $rule['consequent']);
-                        $support = round($rule['support'], 3);
-                        $confidence = round($rule['confidence'], 3);
-                        $formattedRules[] = "Se ({$antecedent}) então ({$consequent}) [Suporte: {$support}, Confiança: {$confidence}]";
+                    // Normalizar os dados (Min-Max Scaling)
+                    // Rubix ML espera que todos os samples tenham o mesmo número de features (dezenas)
+                    // Preencher com 0s se necessário para loterias com número variável de dezenas por sorteio
+                    $maxFeatures = 0;
+                    foreach ($samples as $sample) {
+                        if (count($sample) > $maxFeatures) {
+                            $maxFeatures = count($sample);
+                        }
                     }
-                    $analysisResults['aprioriRules'] = $formattedRules;
-                    $analysisResults['message'] = 'Análise de IA concluída com sucesso. Regras de associação geradas.';
-                    error_log("getAIAnalysis: Análise de IA concluída com sucesso.");
+                    $normalizedSamples = [];
+                    foreach ($samples as $sample) {
+                        $paddedSample = array_pad($sample, $maxFeatures, 0); // Preenche com 0s
+                        $normalizedSample = [];
+                        foreach ($paddedSample as $value) {
+                            // Evitar divisão por zero se minVal == maxVal
+                            $normalizedValue = ($maxVal - $minVal) > 0 ? ($value - $minVal) / ($maxVal - $minVal) : 0;
+                            $normalizedSample[] = $normalizedValue;
+                        }
+                        $normalizedSamples[] = $normalizedSample;
+                    }
+                    
+                    error_log("DEBUG_FULL: getAIAnalysis: Criando dataset com " . count($normalizedSamples) . " amostras normalizadas.");
+                    $dataset = Unlabeled::fromIterator($normalizedSamples);
+                    error_log("DEBUG_FULL: getAIAnalysis: Dataset criado com sucesso.");
+
+                    // Configurar KMeans
+                    $k = 3; // Exemplo: 3 clusters
+                    error_log("DEBUG_FULL: getAIAnalysis: Instanciando KMeans com k=" . $k);
+                    $kmeans = new KMeans($k);
+                    error_log("DEBUG_FULL: getAIAnalysis: KMeans instanciado.");
+
+                    // Treinar o modelo
+                    error_log("DEBUG_FULL: getAIAnalysis: Iniciando treinamento do modelo KMeans.");
+                    $kmeans->train($dataset);
+                    error_log("DEBUG_FULL: getAIAnalysis: Treinamento do modelo KMeans concluído.");
+
+                    // Fazer previsões de cluster para cada amostra
+                    error_log("DEBUG_FULL: getAIAnalysis: Fazendo previsões de cluster.");
+                    $predictions = $kmeans->predict($dataset);
+                    error_log("DEBUG_FULL: getAIAnalysis: Previsões de cluster concluídas.");
+
+                    // Analisar os clusters
+                    error_log("DEBUG_FULL: getAIAnalysis: Analisando clusters.");
+                    $clusterAnalysis = [];
+                    for ($i = 0; $i < $k; $i++) {
+                        $clusterAnalysis[$i] = [
+                            'count' => 0,
+                            'numbers_in_cluster' => [],
+                            'most_frequent_in_cluster' => []
+                        ];
+                    }
+
+                    foreach ($predictions as $index => $clusterId) {
+                        $clusterAnalysis[$clusterId]['count']++;
+                        foreach ($samples[$index] as $number) {
+                            $clusterAnalysis[$clusterId]['numbers_in_cluster'][$number] = ($clusterAnalysis[$clusterId]['numbers_in_cluster'][$number] ?? 0) + 1;
+                        }
+                    }
+
+                    $formattedAnalysis = [];
+                    foreach ($clusterAnalysis as $clusterId => $data) {
+                        arsort($data['numbers_in_cluster']); // Ordena por frequência
+                        $topNumbers = array_slice($data['numbers_in_cluster'], 0, 10, true); // Top 10 por cluster
+                        
+                        $formattedNumbers = [];
+                        foreach ($topNumbers as $num => $freq) {
+                            $formattedNumbers[] = "{$num} ({$freq}x)";
+                        }
+
+                        $formattedAnalysis[] = "Cluster " . ($clusterId + 1) . " (Concursos: " . $data['count'] . "): " . implode(', ', $formattedNumbers);
+                    }
+
+                    $analysisResults['cluster_analysis'] = $formattedAnalysis; // Usar nova chave
+                    $analysisResults['message'] = 'Análise de IA (KMeans) concluída com sucesso. Agrupamento de sorteios gerado.';
+                    error_log("DEBUG_FULL: getAIAnalysis: Análise de IA concluída com sucesso.");
                     echo json_encode(['success' => true, 'analysis' => $analysisResults]);
 
                 } catch (Exception $e) {
-                    error_log("Erro na análise de IA (PHP-ML): " . $e->getMessage());
-                    $analysisResults['message'] = 'Ocorreu um erro durante a análise de IA: ' . $e->getMessage();
+                    error_log("DEBUG_FULL: Erro na análise de IA (Rubix ML) - TRY CATCH: " . $e->getMessage() . " em " . $e->getFile() . " na linha " . $e->getLine());
+                    $analysisResults['message'] = 'Ocorreu um erro durante a análise de IA (Rubix ML): ' . $e->getMessage();
                     echo json_encode(['success' => false, 'analysis' => $analysisResults, 'message' => $analysisResults['message']]);
                 }
             } else {
                 echo json_encode(['success' => false, 'message' => 'Tipo de loteria não especificado para análise de IA.']);
             }
-            // Removido ob_end_clean()
             break;
 
         default:
             echo json_encode(['success' => false, 'message' => 'Ação inválida.']);
-            // Removido ob_end_clean()
             break;
     }
 } catch (Throwable $e) {
     // Este bloco captura qualquer exceção não tratada no fluxo principal
-    error_log("Erro fatal no api.php (fora do switch): " . $e->getMessage() . " em " . $e->getFile() . " na linha " . $e->getLine());
+    error_log("DEBUG_FULL: Erro fatal no api.php (fora do switch): " . $e->getMessage() . " em " . $e->getFile() . " na linha " . $e->getLine());
     http_response_code(500);
-    // Removido ob_end_clean()
     echo json_encode(['success' => false, 'message' => 'Ocorreu um erro interno no servidor. Por favor, tente novamente mais tarde.']);
 }
 
-exit; // Garante que o script termina aqui
-?>
+error_log("DEBUG_FULL: api.php - Fim do script.");

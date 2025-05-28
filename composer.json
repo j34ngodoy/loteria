@@ -6,7 +6,16 @@
     "prefer-stable": true,
     "require": {
         "php": ">=8.0",
-        "php-ai/php-ml": "^0.10.0"
+        "php-ai/php-ml": "^0.10.0",
+        "rubix/ml": "^2.5",
+        "rubix/tensor": "^3.0",
+        "rubix/extras": "^2.0@beta",
+        "rubix/har": "^6.0",
+        "rubix/mnist": "^7.0",
+        "rubix/housing": "^7.0",
+        "ml/json-ld": "^1.2",
+        "ext-xml": "*",
+        "ext-libxml": "*"
     },
     "autoload": {
         "psr-4": {
